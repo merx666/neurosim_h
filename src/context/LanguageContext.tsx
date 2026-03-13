@@ -1,11 +1,12 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState } from 'react';
+import * as Constants from '../data/constants';
 
 type Language = 'pl' | 'en';
 
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
-  t: (key: string, category?: 'ui' | 'canvas') => string;
+  t: (key: string, category?: 'ui' | 'canvas', ...args: any[]) => string;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -13,13 +14,15 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [language, setLanguage] = useState<Language>('pl');
 
-  // We will import TRANSLATIONS later or pass them here
-  // For now, let's assume we have a way to access them.
-  // I'll import them from core constants.
-  
-  const t = (key: string, category: 'ui' | 'canvas' = 'ui') => {
-    // This is a placeholder, we'll implement it properly with the data we extracted
-    return key; 
+  const t = (key: string, category: 'ui' | 'canvas' = 'ui', ...args: any[]) => {
+    const uiDict = language === 'pl' ? (Constants as any).UI_PL : (Constants as any).UI_EN;
+    const canvasDict = (Constants as any).CANVAS_T?.[language];
+    
+    const dict = category === 'ui' ? uiDict : canvasDict;
+    const val = dict?.[key];
+    
+    if (typeof val === 'function') return val(...args);
+    return val || key;
   };
 
   return (
