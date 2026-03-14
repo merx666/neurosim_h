@@ -8,23 +8,24 @@ interface SubstanceGridProps {
   onSelect: (id: string) => void;
 }
 
+// Optimization: Group substances once at module load instead of every render
+// This prevents an O(N) recalculation when the component re-renders (e.g. on language change)
+const GROUPED_SUBSTANCES = Object.values(SUBSTANCES).reduce((acc, s) => {
+  if (!acc[s.category]) acc[s.category] = [];
+  acc[s.category].push(s);
+  return acc;
+}, {} as Record<string, typeof SUBSTANCES[string][]>);
+
 export const SubstanceGrid: React.FC<SubstanceGridProps> = ({ onSelect }) => {
   const { language } = useLanguage();
-  
-  // Group substances by category
-  const grouped = Object.values(SUBSTANCES).reduce((acc, s) => {
-    if (!acc[s.category]) acc[s.category] = [];
-    acc[s.category].push(s);
-    return acc;
-  }, {} as Record<string, typeof SUBSTANCES[string][]>);
 
   return (
     <div className="substance-grid-container animate-fade-in">
       {Object.entries(CATEGORIES).map(([catId, catNames]) => {
-        const categorySubstances = grouped[catId];
+        const categorySubstances = GROUPED_SUBSTANCES[catId];
         if (!categorySubstances) return null;
         
-        const catName = language === 'pl' ? (catNames as any).pl : (catNames as any).en;
+        const catName = language === 'pl' ? (catNames as Record<string, string>).pl : (catNames as Record<string, string>).en;
         
         return (
           <section key={catId} className="category-section">
