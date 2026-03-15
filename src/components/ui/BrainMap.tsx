@@ -1,5 +1,5 @@
 import React from 'react';
-import { BRAIN_REGIONS, NT_COLORS } from '../../data/constants';
+import { BRAIN_R, NT_COL } from '../../data/constants';
 import { useLanguage } from '../../context/LanguageContext';
 
 interface ActiveRegion {
@@ -45,10 +45,10 @@ export const BrainMap: React.FC<BrainMapProps> = ({ activeRegions }) => {
           
           {/* Region Indicators */}
           {activeRegions.map((region, idx) => {
-            const coords = (BRAIN_REGIONS as any)[region.r];
+            const coords = (BRAIN_R as any)[region.r];
             if (!coords) return null;
 
-            const ntColor = (NT_COLORS as any)[region.nt.toUpperCase()] || '#ffffff';
+            const ntColor = (NT_COL as any)[region.nt.toUpperCase()] || '#ffffff';
             const radius = 4 + (region.i * 6);
             const opacity = 0.3 + (region.i * 0.7);
 
@@ -99,7 +99,7 @@ export const BrainMap: React.FC<BrainMapProps> = ({ activeRegions }) => {
           <div key={nt} className="legend-item">
             <span 
               className="legend-dot" 
-              style={{ background: (NT_COLORS as any)[nt] }}
+              style={{ background: (NT_COL as any)[nt] }}
             ></span>
             <span className="legend-name">{nt}</span>
           </div>

@@ -1,0 +1,3 @@
+## 2025-03-15 - Static Data Grouping in React Renders
+**Learning:** React components frequently calculate derived state from static files directly inside the render loop, e.g., mapping an array of static objects into a grouped dictionary. This creates a new reference array/object on every render and incurs an O(n) penalty.
+**Action:** For static data sourced from constants/json files, move the transformation logic outside of the React component's scope entirely. This ensures the data structure is built exactly once when the module is loaded and provides a free performance win without needing `useMemo`.
