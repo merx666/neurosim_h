@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phase } from '../../types/substance';
+import type { Phase } from '../../types/substance';
 import { useLanguage } from '../../context/LanguageContext';
 
 interface TimelineProps {

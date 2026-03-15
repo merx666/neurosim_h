@@ -1,5 +1,5 @@
 import React from 'react';
-import { Substance } from '../../types/substance';
+import type { Substance } from '../../types/substance';
 import { useLanguage } from '../../context/LanguageContext';
 import { Card } from '../ui/Card';
 

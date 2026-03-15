@@ -1,7 +1,8 @@
-import { Substance } from '../types/substance';
+import type { Substance } from '../types/substance';
 
 export const DATA = {
   mephedrone: {
+    id: "mephedrone",
     name_en: "Mephedrone", fullName_en: "Mephedrone (4-MMC)", class_en: "Cathinone",
     name: "Mefedron", fullName: "Mefedron (4-MMC)", class: "Katynon", category: "cathinone",
     mechanism: "Releasing agent + Reuptake inhibitor",
@@ -34,6 +35,7 @@ export const DATA = {
     ]
   },
   "3cmc": {
+    id: "3cmc",
     name: "3-CMC", fullName: "3-Chloromethcathinon", class: "Katynon", category: "cathinone",
     mechanism: "Reuptake inhibitor + komponent releasing",
     targets: ["DAT","SERT","NET"],
@@ -65,6 +67,7 @@ export const DATA = {
     ]
   },
   alpvp: {
+    id: "alpvp",
     name_en: "α-PVP", fullName_en: "α-Pyrrolidinopentiophenone (α-PVP)", class_en: "Cathinone",
     name: "α-PVP", fullName: "Alpha-Pyrrolidinopentiophenon", class: "Katynon (pirolidinowy)", category: "cathinone",
     mechanism: "Selektywny DAT/NET reuptake inhibitor — zero SERT",
@@ -97,6 +100,7 @@ export const DATA = {
     ]
   },
   mdma: {
+    id: "mdma",
     name_en: "MDMA", fullName_en: "MDMA (Ecstasy)", class_en: "Entactogen / Phenethylamine",
     name: "MDMA", fullName: "3,4-Methylenedioxymethamphetamine", class: "Entaktogen / Empatogen", category: "entactogen",
     mechanism: "Masywny releasing agent — głównie serotonina",
@@ -129,6 +133,7 @@ export const DATA = {
     ]
   },
   cocaine: {
+    id: "cocaine",
     name_en: "Cocaine", fullName_en: "Cocaine (COC)", class_en: "Tropane Alkaloid",
     name: "Kokaina", fullName: "Kokaina (benzoylomethylekgonina)", class: "Tropanowy alkaloid", category: "stimulant",
     mechanism: "Czysty reuptake inhibitor — blokuje DAT/SERT/NET",
@@ -159,6 +164,7 @@ export const DATA = {
     ]
   },
   amphetamine: {
+    id: "amphetamine",
     name_en: "Amphetamine", fullName_en: "Amphetamine (AMPH)", class_en: "Phenethylamine",
     name: "Amfetamina", fullName: "Amfetamina (α-metylfenyloetylomina)", class: "Fenyloetylomina", category: "stimulant",
     mechanism: "Releasing agent + VMAT2 inhibitor + reuptake inhibitor",
@@ -191,6 +197,7 @@ export const DATA = {
     ]
   },
   codeine: {
+    id: "codeine",
     name_en: "Codeine", fullName_en: "Codeine (COD)", class_en: "Opioid",
     name: "Kodeina", fullName: "Kodeina (3-metylomorfina)", class: "Opioid", category: "opioid",
     mechanism: "Prolek morfiny — aktywacja μ-opioidowych receptorów",
@@ -223,6 +230,7 @@ export const DATA = {
     ]
   },
   ketamine: {
+    id: "ketamine",
     name_en: "Ketamine", fullName_en: "Ketamine (KET)", class_en: "Dissociative Anaesthetic",
     name: "Ketamina", fullName: "Ketamina (2-[2-chlorophenyl]-2-[methylamino]cyclohexanone)", class: "Dysocjant / Anestetyk", category: "dissociative",
     mechanism: "NMDA antagonista (open channel blocker)",
@@ -255,6 +263,7 @@ export const DATA = {
     ]
   },
   psilocybin: {
+    id: "psilocybin",
     name_en: "Psilocybin", fullName_en: "Psilocybin (PSI)", class_en: "Tryptamine Psychedelic",
     name: "Psylocybina", fullName: "Psylocybina (4-phosphoryloxy-DMT)", class: "Tryptamina / Psychedelik", category: "psychedelic",
     mechanism: "Prolek psylocyny — agonista 5-HT2A",
@@ -287,6 +296,7 @@ export const DATA = {
     ]
   },
   lsd: {
+    id: "lsd",
     name_en: "LSD", fullName_en: "Lysergic Acid Diethylamide (LSD)", class_en: "Ergoline Psychedelic",
     name: "LSD", fullName: "LSD-25 (Kwas d-lizergowy dietyloamid)", class: "Ergolina / Psychedelik", category: "psychedelic",
     mechanism: "Agonista 5-HT2A + receptory dopaminowe + adrenergiczne",
@@ -319,6 +329,7 @@ export const DATA = {
     ]
   },
   thc: {
+    id: "thc",
     name_en: "THC", fullName_en: "Δ9-Tetrahydrocannabinol (THC)", class_en: "Cannabinoid",
     name: "THC", fullName: "Δ9-Tetrahydrokannabinol", class: "Fitokannabinoid", category: "cannabinoid",
     mechanism: "Agonista CB1/CB2 — retrograde signaling, tłumienie wyrzutu NT",
@@ -351,6 +362,7 @@ export const DATA = {
     ]
   },
   cbd: {
+    id: "cbd",
     name_en: "CBD", fullName_en: "Cannabidiol (CBD)", class_en: "Cannabinoid",
     name: "CBD", fullName: "Kannabidiol", class: "Fitokannabinoid", category: "cannabinoid",
     mechanism: "Allosteryczny modulator CB1 · agonista 5-HT1A · agonista TRPV1 (desensytyzacja) · inhibitor FAAH",
@@ -384,6 +396,7 @@ export const DATA = {
   },
 
   dmt: {
+    id: "dmt",
     name_en: "DMT", fullName_en: "N,N-Dimethyltryptamine (DMT)", class_en: "Tryptamine Psychedelic",
     name: "DMT", fullName: "N,N-Dimetylotryptamina", class: "Tryptamina / Psychedelik", category: "psychedelic",
     mechanism: "Szybki agonista 5-HT2A + receptor sigma-1 · endogenna tryptamina",
@@ -413,6 +426,7 @@ export const DATA = {
   },
 
   diazepam: {
+    id: "diazepam",
     name_en: "Diazepam", fullName_en: "Diazepam (Valium)", class_en: "Benzodiazepine",
     name: "Diazepam", fullName: "Diazepam (Valium)", class: "Benzodiazepina", category: "gabaergic",
     mechanism: "Pozytywny modulator allosteryczny GABA-A · wzmacnia działanie GABA",
@@ -446,6 +460,7 @@ export const DATA = {
   },
 
   dxm: {
+    id: "dxm",
     name_en: "DXM", fullName_en: "Dextromethorphan (DXM)", class_en: "Dissociative / SERT Inhibitor",
     name: "DXM", fullName: "Dekstrometorfan", class: "Morfinian / Dysocjant", category: "dissociative",
     mechanism: "Antagonista NMDA + inhibitor SERT + agonista sigma-1",
@@ -477,6 +492,7 @@ export const DATA = {
   },
 
   ghb: {
+    id: "ghb",
     name_en: "GHB", fullName_en: "GHB (γ-Hydroxybutyrate)", class_en: "GABA-B Agonist",
     name: "GHB", fullName: "Kwas gamma-hydroksymasłowy", class: "Endogenny GABA-B agonista", category: "gabaergic",
     mechanism: "Agonista GABA-B + receptor GHB · pulsatile DA release · GBL jako prolek",
