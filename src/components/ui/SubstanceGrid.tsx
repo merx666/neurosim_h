@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { SUBSTANCES } from '../../data/substances';
 import { CATEGORIES } from '../../data/constants';
 import { useLanguage } from '../../context/LanguageContext';
@@ -12,11 +12,14 @@ export const SubstanceGrid: React.FC<SubstanceGridProps> = ({ onSelect }) => {
   const { language } = useLanguage();
   
   // Group substances by category
-  const grouped = Object.values(SUBSTANCES).reduce((acc, s) => {
-    if (!acc[s.category]) acc[s.category] = [];
-    acc[s.category].push(s);
-    return acc;
-  }, {} as Record<string, typeof SUBSTANCES[string][]>);
+  // Using useMemo to prevent grouping recalculation on every render (e.g. language switch)
+  const grouped = useMemo(() => {
+    return Object.values(SUBSTANCES).reduce((acc, s) => {
+      if (!acc[s.category]) acc[s.category] = [];
+      acc[s.category].push(s);
+      return acc;
+    }, {} as Record<string, typeof SUBSTANCES[string][]>);
+  }, []);
 
   return (
     <div className="substance-grid-container animate-fade-in">
