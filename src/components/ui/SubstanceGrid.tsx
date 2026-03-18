@@ -8,20 +8,23 @@ interface SubstanceGridProps {
   onSelect: (id: string) => void;
 }
 
+// ⚡ Bolt: Moved expensive grouping computation outside of render loop
+// This avoids O(n) calculation of Object.values() and object/array allocations on every component render.
+// It also resolves the missing 'id' bug by injecting the key into the object directly.
+const GROUPED_SUBSTANCES = Object.entries(SUBSTANCES).reduce((acc, [id, s]) => {
+  const substanceWithId = { ...s, id };
+  if (!acc[s.category]) acc[s.category] = [];
+  acc[s.category].push(substanceWithId);
+  return acc;
+}, {} as Record<string, typeof SUBSTANCES[string][]>);
+
 export const SubstanceGrid: React.FC<SubstanceGridProps> = ({ onSelect }) => {
   const { language } = useLanguage();
-  
-  // Group substances by category
-  const grouped = Object.values(SUBSTANCES).reduce((acc, s) => {
-    if (!acc[s.category]) acc[s.category] = [];
-    acc[s.category].push(s);
-    return acc;
-  }, {} as Record<string, typeof SUBSTANCES[string][]>);
 
   return (
     <div className="substance-grid-container animate-fade-in">
       {Object.entries(CATEGORIES).map(([catId, catNames]) => {
-        const categorySubstances = grouped[catId];
+        const categorySubstances = GROUPED_SUBSTANCES[catId];
         if (!categorySubstances) return null;
         
         const catName = language === 'pl' ? (catNames as any).pl : (catNames as any).en;
