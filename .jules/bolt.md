@@ -1,0 +1,3 @@
+## 2025-03-18 - Extracting Static Grouping and Fixing Missing Identifiers
+**Learning:** React component re-renders will repeatedly execute `Object.values()` and `.reduce()` operations for static configuration maps, causing unnecessary allocations. Additionally, relying on TypeScript type hints (like assuming `id` exists inside a dictionary mapped type) can mask runtime bugs if the static object definition lacks the key.
+**Action:** Always move fully static state and mappings outside of the component render loop (module scope). When mapping over static dictionaries to lists where `id` is required, use `Object.entries` to safely inject the key into the items rather than assuming it's present.
