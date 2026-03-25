@@ -1,0 +1,3 @@
+## 2025-02-24 - [Derived State from Static Imports Optimization]
+**Learning:** In a codebase that relies heavily on large static data objects (e.g. `SUBSTANCES` mapping), transforming or grouping this data inside React components leads to unnecessary O(N) calculations on every single render.
+**Action:** When working with large static data imports, identify any derived state calculations that don't depend on React state or props, and move them entirely outside the component function (or use `useMemo` if they depend on static-but-injected props) to ensure they are computed exactly once per application load.

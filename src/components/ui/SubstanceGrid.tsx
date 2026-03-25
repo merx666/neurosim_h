@@ -8,15 +8,15 @@ interface SubstanceGridProps {
   onSelect: (id: string) => void;
 }
 
+// Group substances by category once outside the component
+const grouped = Object.values(SUBSTANCES).reduce((acc, s) => {
+  if (!acc[s.category]) acc[s.category] = [];
+  acc[s.category].push(s);
+  return acc;
+}, {} as Record<string, typeof SUBSTANCES[string][]>);
+
 export const SubstanceGrid: React.FC<SubstanceGridProps> = ({ onSelect }) => {
   const { language } = useLanguage();
-  
-  // Group substances by category
-  const grouped = Object.values(SUBSTANCES).reduce((acc, s) => {
-    if (!acc[s.category]) acc[s.category] = [];
-    acc[s.category].push(s);
-    return acc;
-  }, {} as Record<string, typeof SUBSTANCES[string][]>);
 
   return (
     <div className="substance-grid-container animate-fade-in">
@@ -24,7 +24,7 @@ export const SubstanceGrid: React.FC<SubstanceGridProps> = ({ onSelect }) => {
         const categorySubstances = grouped[catId];
         if (!categorySubstances) return null;
         
-        const catName = language === 'pl' ? (catNames as any).pl : (catNames as any).en;
+        const catName = language === 'pl' ? (catNames as Record<string, string>).pl : (catNames as Record<string, string>).en;
         
         return (
           <section key={catId} className="category-section">
