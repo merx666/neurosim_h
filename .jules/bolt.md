@@ -1,0 +1,3 @@
+## 2024-03-30 - Extract static derived data from React components
+**Learning:** The application heavily relies on importing large static objects (like `SUBSTANCES` in `src/data/substances.ts`) into components. Mapping, reducing, or filtering these large static N-element lists/objects directly inside React function components leads to unnecessary $O(N)$ recalulations on every single re-render.
+**Action:** When working with large static imported constants in this codebase, always ensure that any derived groupings, mappings, or reductions are extracted outside the React component (or wrapped in `useMemo` if they depend on local state or props) to compute them only once, saving significant main-thread time per render.

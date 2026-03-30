@@ -1,5 +1,5 @@
 
-export const CATS = {
+export const CATEGORIES = {
   cathinone:   { label: "KATYNONY",    label_en: "CATHINONES",    color: "#00ff9f" },
   entactogen:  { label: "ENTAKTOGENY", label_en: "ENTACTOGENS",   color: "#ee00ff" },
   stimulant:   { label: "STYMULANTY",  label_en: "STIMULANTS",    color: "#ffcc00" },
@@ -31,7 +31,8 @@ export const NT_COL = {
   glut:   '255,220,50',
   endo:   '100,232,144',
   opioid: '160,100,255',
-  cb1:    '80,210,130',;
+  cb1:    '80,210,130',
+};
 export var UI_PL={subtitle:"PSYCHOPHARMACOLOGY ENGINE // WYBIERZ SUBSTANCJĘ",back:"← POWRÓT",vizSynapse:"WIZUALIZACJA SYNAPTYCZNA",timeline:"TIMELINE EFEKTÓW — KLIKNIJ FAZĘ",tabMech:"MECHANIZM — LEGENDA ANIMACJI",tabBrain:"OBSZARY MÓZGU",sp:{psilocybin:"MECHANIZM SYNAPTYCZNY — 5-HT2A (PSILOCYNA)",lsd:"KINETYKA WIĄZANIA — LSD vs NORMALNY AGONISTA",thc:"OBWÓD VTA — DISINHIBICJA DOPAMINY (CB1→GABA→DA)",cbd:"ALLOSTERYCZNA MODULACJA CB1 — CBD vs THC",dxm:"REUPTAKE — SERT INHIBICJA DXM",def:"REUPTAKE — NORMALNY vs ZABLOKOWANY"}};
 export var UI_EN={subtitle:"PSYCHOPHARMACOLOGY ENGINE // SELECT SUBSTANCE",back:"← BACK",vizSynapse:"SYNAPTIC VISUALIZATION",timeline:"EFFECTS TIMELINE — CLICK A PHASE",tabMech:"MECHANISM — ANIMATION GUIDE",tabBrain:"BRAIN REGIONS",sp:{psilocybin:"SYNAPTIC MECHANISM — 5-HT2A (PSILOCIN)",lsd:"BINDING KINETICS — LSD vs NORMAL AGONIST",thc:"VTA CIRCUIT — DOPAMINE DISINHIBITION (CB1→GABA→DA)",cbd:"CB1 ALLOSTERIC MODULATION — CBD vs THC",dxm:"REUPTAKE — DXM SERT INHIBITION",def:"REUPTAKE — NORMAL vs BLOCKED"}};
 export var CANVAS_T={
