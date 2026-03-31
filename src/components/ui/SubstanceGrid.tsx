@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { SUBSTANCES } from '../../data/substances';
 import { CATEGORIES } from '../../data/constants';
 import { useLanguage } from '../../context/LanguageContext';
@@ -11,12 +11,14 @@ interface SubstanceGridProps {
 export const SubstanceGrid: React.FC<SubstanceGridProps> = ({ onSelect }) => {
   const { language } = useLanguage();
   
-  // Group substances by category
-  const grouped = Object.values(SUBSTANCES).reduce((acc, s) => {
-    if (!acc[s.category]) acc[s.category] = [];
-    acc[s.category].push(s);
-    return acc;
-  }, {} as Record<string, typeof SUBSTANCES[string][]>);
+  // Group substances by category - memoized to prevent O(N) recalculation on every render
+  const grouped = useMemo(() => {
+    return Object.values(SUBSTANCES).reduce((acc, s) => {
+      if (!acc[s.category]) acc[s.category] = [];
+      acc[s.category].push(s);
+      return acc;
+    }, {} as Record<string, typeof SUBSTANCES[string][]>);
+  }, []); // Empty dependency array as SUBSTANCES is static data
 
   return (
     <div className="substance-grid-container animate-fade-in">
