@@ -1,6 +1,6 @@
 import React from 'react';
 import { SUBSTANCES } from '../../data/substances';
-import { CATEGORIES } from '../../data/constants';
+import { CATS } from '../../data/constants';
 import { useLanguage } from '../../context/LanguageContext';
 import { SubstanceCard } from './SubstanceCard';
 
@@ -8,23 +8,24 @@ interface SubstanceGridProps {
   onSelect: (id: string) => void;
 }
 
+// ⚡ Bolt Performance Optimization: Move grouped substances calculation outside of the component
+// to prevent expensive O(N) recalculations of static data on every render.
+const grouped = Object.values(SUBSTANCES).reduce((acc, s) => {
+  if (!acc[s.category]) acc[s.category] = [];
+  acc[s.category].push(s);
+  return acc;
+}, {} as Record<string, typeof SUBSTANCES[string][]>);
+
 export const SubstanceGrid: React.FC<SubstanceGridProps> = ({ onSelect }) => {
   const { language } = useLanguage();
-  
-  // Group substances by category
-  const grouped = Object.values(SUBSTANCES).reduce((acc, s) => {
-    if (!acc[s.category]) acc[s.category] = [];
-    acc[s.category].push(s);
-    return acc;
-  }, {} as Record<string, typeof SUBSTANCES[string][]>);
 
   return (
     <div className="substance-grid-container animate-fade-in">
-      {Object.entries(CATEGORIES).map(([catId, catNames]) => {
+      {Object.entries(CATS).map(([catId, catNames]) => {
         const categorySubstances = grouped[catId];
         if (!categorySubstances) return null;
         
-        const catName = language === 'pl' ? (catNames as any).pl : (catNames as any).en;
+        const catName = language === 'pl' ? (catNames as any).label : (catNames as any).label_en;
         
         return (
           <section key={catId} className="category-section">

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Substance } from '../../types/substance';
 import { useLanguage } from '../../context/LanguageContext';
-import { NT_COLORS } from '../../data/constants';
+import { NT_COL as NT_COLORS } from '../../data/constants';
 
 interface SynapseAnimationProps {
   substance: Substance;
