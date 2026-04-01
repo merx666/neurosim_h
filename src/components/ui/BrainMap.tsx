@@ -1,5 +1,5 @@
 import React from 'react';
-import { BRAIN_REGIONS, NT_COLORS } from '../../data/constants';
+import { BRAIN_R as BRAIN_REGIONS, NT_COL as NT_COLORS } from '../../data/constants';
 import { useLanguage } from '../../context/LanguageContext';
 
 interface ActiveRegion {
