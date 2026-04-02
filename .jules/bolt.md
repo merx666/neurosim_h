@@ -1,0 +1,3 @@
+## 2025-04-02 - Component-Level Static Data Processing
+**Learning:** In a codebase heavily reliant on large static data objects (like `SUBSTANCES`), computing derived state (like grouping properties using `Object.values(SUBSTANCES).reduce`) directly inside a React component causes an expensive O(N) recalculation on *every single render*.
+**Action:** Always move static data transformations (e.g. grouping, filtering of unchanging module-level constants) outside the React component so they are evaluated exactly once when the module loads, preventing unnecessary runtime overhead.
