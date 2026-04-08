@@ -1,0 +1,3 @@
+## 2024-06-25 - React Component Re-renders and Static Data
+**Learning:** Derived state calculated from large static data objects (like `SUBSTANCES`) inside a React component causes expensive O(N) recalculations on every single re-render. Since the source data is static, this calculation doesn't depend on component props or state and thus doesn't need to be recalculated.
+**Action:** Move derivations of static data outside the component render function entirely. This guarantees it runs only once when the module is loaded, avoiding the overhead of `useMemo` and completely bypassing the render cycle for static computations.
