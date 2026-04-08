@@ -508,4 +508,4 @@ export const DATA = {
   },
 };
 
-export const SUBSTANCES: Record<string, Substance> = DATA;
+export const SUBSTANCES = Object.fromEntries(Object.entries(DATA).map(([id, sub]) => [id, { id, ...sub }])) as Record<string, Substance>;
