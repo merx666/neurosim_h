@@ -1,0 +1,3 @@
+## 2024-04-21 - [Preventing O(N) Recalculations from Static Data]
+**Learning:** React components that render large grids or lists based on static data (like `SUBSTANCES` from `src/data/substances.ts`) will redundantly recalculate any derived state (like grouping by category) on every render if placed inside the component. Using `useMemo` helps, but since the data is completely static and never changes, it's even better to compute the derived state once outside the component.
+**Action:** When working with large static objects/arrays imported from data files, always extract data transformations (like `.reduce` for grouping or mapping) to module-scoped variables outside the React component so they are evaluated exactly once at startup.
