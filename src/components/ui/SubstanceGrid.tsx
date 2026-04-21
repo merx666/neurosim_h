@@ -1,6 +1,6 @@
 import React from 'react';
 import { SUBSTANCES } from '../../data/substances';
-import { CATEGORIES } from '../../data/constants';
+import { CATS as CATEGORIES } from '../../data/constants';
 import { useLanguage } from '../../context/LanguageContext';
 import { SubstanceCard } from './SubstanceCard';
 

@@ -1,4 +1,4 @@
-const DATA = {
+export const DATA = {
   mephedrone: {
     name_en: "Mephedrone", fullName_en: "Mephedrone (4-MMC)", class_en: "Cathinone",
     name: "Mefedron", fullName: "Mefedron (4-MMC)", class: "Katynon", category: "cathinone",

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { Layout } from './components/layout/Layout';
 import { SubstanceGrid } from './components/ui/SubstanceGrid';
@@ -6,9 +7,25 @@ import { SUBSTANCES } from './data/substances';
 import { Timeline } from './components/ui/Timeline';
 import { BrainMap } from './components/ui/BrainMap';
 import { SynapseAnimation } from './components/ui/SynapseAnimation';
+import { MixExplorer } from './components/ui/MixExplorer';
 import * as Constants from './data/constants';
 
-function AppContent() {
+function NavBar() {
+  const { language } = useLanguage();
+  const location = useLocation();
+  return (
+    <nav className="app-nav">
+      <Link to="/" className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}>
+        {language === 'pl' ? '🧠 SUBSTANCJE' : '🧠 SUBSTANCES'}
+      </Link>
+      <Link to="/mixes" className={`nav-link ${location.pathname === '/mixes' ? 'active' : ''}`}>
+        {language === 'pl' ? '⚗️ INTERAKCJE MIKSÓW' : '⚗️ MIX INTERACTIONS'}
+      </Link>
+    </nav>
+  );
+}
+
+function SubstanceView() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [activePhaseInt, setActivePhaseInt] = useState<number | null>(0);
   const [activeTab, setActiveTab] = useState<'guide' | 'brain' | 'extra'>('guide');
@@ -31,7 +48,7 @@ function AppContent() {
   };
 
   return (
-    <Layout>
+    <>
       {!selectedSubstance ? (
         <div className="home-screen">
           <header className="home-header">
@@ -244,14 +261,22 @@ function AppContent() {
           }
         }
       `}</style>
-    </Layout>
+    </>
   );
 }
 
 function App() {
   return (
     <LanguageProvider>
-      <AppContent />
+      <BrowserRouter>
+        <Layout>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<SubstanceView />} />
+            <Route path="/mixes" element={<MixExplorer />} />
+          </Routes>
+        </Layout>
+      </BrowserRouter>
     </LanguageProvider>
   );
 }

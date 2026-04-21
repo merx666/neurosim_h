@@ -1,4 +1,4 @@
-import { Substance } from '../types/substance';
+import type { Substance } from '../types/substance';
 
 export const DATA = {
   mephedrone: {
@@ -508,4 +508,6 @@ export const DATA = {
   },
 };
 
-export const SUBSTANCES: Record<string, Substance> = DATA;
+export const SUBSTANCES: Record<string, Substance> = Object.fromEntries(
+  Object.entries(DATA).map(([id, substance]) => [id, { ...substance, id } as Substance])
+);

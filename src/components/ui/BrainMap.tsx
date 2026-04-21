@@ -1,5 +1,5 @@
 import React from 'react';
-import { BRAIN_REGIONS, NT_COLORS } from '../../data/constants';
+import { BRAIN_R as BRAIN_REGIONS, NT_COL as NT_COLORS } from '../../data/constants';
 import { useLanguage } from '../../context/LanguageContext';
 
 interface ActiveRegion {
@@ -55,8 +55,8 @@ export const BrainMap: React.FC<BrainMapProps> = ({ activeRegions }) => {
             return (
               <g key={idx} className="region-group">
                 <circle 
-                  cx={coords.x} 
-                  cy={coords.y} 
+                  cx={coords.x * width} 
+                  cy={coords.y * height} 
                   r={radius} 
                   fill={ntColor}
                   className="region-dot-glow"
@@ -70,8 +70,8 @@ export const BrainMap: React.FC<BrainMapProps> = ({ activeRegions }) => {
                   />
                 </circle>
                 <circle 
-                  cx={coords.x} 
-                  cy={coords.y} 
+                  cx={coords.x * width} 
+                  cy={coords.y * height} 
                   r={radius * 0.6} 
                   fill={ntColor}
                   stroke="white"
@@ -81,8 +81,8 @@ export const BrainMap: React.FC<BrainMapProps> = ({ activeRegions }) => {
                 
                 {/* Region Label (Visible on hover or small dots) */}
                 <text 
-                  x={coords.x} 
-                  y={coords.y - radius - 6} 
+                  x={coords.x * width} 
+                  y={coords.y * height - radius - 6} 
                   textAnchor="middle" 
                   className="region-label"
                 >
