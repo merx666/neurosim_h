@@ -46,9 +46,12 @@ export const BrainMap: React.FC<BrainMapProps> = ({ activeRegions }) => {
           {/* Region Indicators */}
           {activeRegions.map((region, idx) => {
             const coords = (BRAIN_REGIONS as any)[region.r];
-            if (!coords) return null;
+            if (!coords) {
+              console.warn("BrainMap: Unknown region:", region.r);
+              return null;
+            }
 
-            const ntColor = (NT_COLORS as any)[region.nt.toUpperCase()] || '#ffffff';
+            const ntColor = (NT_COLORS as any)[region.nt.toLowerCase()] || '#ffffff';
             const radius = 4 + (region.i * 6);
             const opacity = 0.3 + (region.i * 0.7);
 
@@ -95,13 +98,13 @@ export const BrainMap: React.FC<BrainMapProps> = ({ activeRegions }) => {
       </div>
 
       <div className="brain-legend">
-        {Array.from(new Set(activeRegions.map(r => r.nt.toUpperCase()))).map(nt => (
+        {Array.from(new Set(activeRegions.map(r => r.nt.toLowerCase()))).map(nt => (
           <div key={nt} className="legend-item">
             <span 
               className="legend-dot" 
               style={{ background: (NT_COLORS as any)[nt] }}
             ></span>
-            <span className="legend-name">{nt}</span>
+            <span className="legend-name">{nt.toUpperCase()}</span>
           </div>
         ))}
       </div>
@@ -139,24 +142,27 @@ export const BrainMap: React.FC<BrainMapProps> = ({ activeRegions }) => {
           width: 100%;
           max-width: 300px;
           height: auto;
-          filter: drop-shadow(0 0 20px rgba(0,0,0,0.3));
+          filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
         }
         .brain-outline {
           transition: var(--transition);
         }
         .region-dot-glow {
-          filter: blur(4px);
+          /* Using shadow instead of blur for better cross-browser support and performance */
+          opacity: 0.15 !important;
         }
         .region-label {
           font-family: var(--font-mono);
           font-size: 8px;
           font-weight: 700;
           fill: var(--text-dim);
-          opacity: 0;
+          opacity: 0.7;
           transition: var(--transition);
+          pointer-events: none;
         }
         .region-group:hover .region-label {
           opacity: 1;
+          fill: white;
         }
         .brain-legend {
           display: flex;

@@ -13,6 +13,8 @@
     "dev:all": "concurrently \"npm run dev\" \"npm run server\""
   },
   "dependencies": {
+    "@types/animejs": "^3.1.13",
+    "animejs": "^4.3.6",
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "pg": "^8.20.0",

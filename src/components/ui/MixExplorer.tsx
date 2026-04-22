@@ -170,6 +170,7 @@ export function MixExplorer() {
                 substanceAName={getName({ name_pl: result.substance_a_name, name_en: result.substance_a_name_en })}
                 substanceBName={getName({ name_pl: result.substance_b_name, name_en: result.substance_b_name_en })}
                 risk={result.risk}
+                language={language}
               />
             </div>
           )}
