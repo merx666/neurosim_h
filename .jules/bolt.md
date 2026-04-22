@@ -1,0 +1,3 @@
+## 2026-04-22 - [Derived Static Data Overhead]
+**Learning:** This codebase heavily relies on large static imports (like `SUBSTANCES` with dozens of complex objects). Computing derived state from these imports (like grouping or filtering) directly inside React components causes significant performance overhead (O(N) operations) on every render, especially when the component relies on frequently updated context (like LanguageContext).
+**Action:** Always inspect what data is being processed inside components. If the data source is static and doesn't depend on props/state, extract the derived calculation to the module scope (outside the component) to compute it only once during initialization.
