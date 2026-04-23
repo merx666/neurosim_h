@@ -22,6 +22,7 @@ export const BRAIN_R = {
   Cereb:  { x:0.78, y:0.73, label:'Cerebellum'  },
   VCtx:   { x:0.82, y:0.38, label:'V.Ctx'    },
   Cortex: { x:0.52, y:0.22, label:'Cortex'   },
+  Striatum: { x:0.42, y:0.50, label:'Striatum' },
 };
 export const NT_COL = {
   da:     'rgb(0,255,170)',

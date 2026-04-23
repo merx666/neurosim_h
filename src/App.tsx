@@ -1,14 +1,12 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { Layout } from './components/layout/Layout';
 import { SubstanceGrid } from './components/ui/SubstanceGrid';
-import { SUBSTANCES } from './data/substances';
 import { Timeline } from './components/ui/Timeline';
 import { BrainMap } from './components/ui/BrainMap';
 import { SynapseAnimation } from './components/ui/SynapseAnimation';
 import { MixExplorer } from './components/ui/MixExplorer';
-import * as Constants from './data/constants';
 
 function NavBar() {
   const { language } = useLanguage();
@@ -26,13 +24,38 @@ function NavBar() {
 }
 
 function SubstanceView() {
+  const [substances, setSubstances] = useState<any[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [selectedSubstance, setSelectedSubstance] = useState<any | null>(null);
   const [activePhaseInt, setActivePhaseInt] = useState<number | null>(0);
   const [activeTab, setActiveTab] = useState<'guide' | 'brain' | 'extra'>('guide');
+  const [loading, setLoading] = useState(false);
   const { language } = useLanguage();
-  
-  const selectedSubstance = selectedId ? SUBSTANCES[selectedId] : null;
-  const synData = selectedId ? (Constants as any).SYN?.[selectedId] : null;
+
+  useEffect(() => {
+    fetch('/api/substances')
+      .then(r => r.json())
+      .then(setSubstances)
+      .catch(console.error);
+  }, []);
+
+  useEffect(() => {
+    if (selectedId) {
+      setLoading(true);
+      fetch(`/api/substances/${selectedId}`)
+        .then(r => r.json())
+        .then(data => {
+          setSelectedSubstance(data);
+          setLoading(false);
+        })
+        .catch(err => {
+          console.error(err);
+          setLoading(false);
+        });
+    } else {
+      setSelectedSubstance(null);
+    }
+  }, [selectedId]);
 
   const handleSelect = (id: string) => {
     setSelectedId(id);
@@ -49,7 +72,7 @@ function SubstanceView() {
 
   return (
     <>
-      {!selectedSubstance ? (
+      {!selectedId ? (
         <div className="home-screen">
           <header className="home-header">
             <h1 className="heading text-gradient">
@@ -64,7 +87,7 @@ function SubstanceView() {
             </p>
           </header>
           
-          <SubstanceGrid onSelect={handleSelect} />
+          <SubstanceGrid substances={substances} onSelect={handleSelect} />
         </div>
       ) : (
         <div className="detail-screen animate-fade-in">
@@ -75,64 +98,70 @@ function SubstanceView() {
             ← {language === 'pl' ? 'POWRÓT DO LISTY' : 'BACK TO LIST'}
           </button>
           
-          <header className="detail-header">
-            <div className="title-area">
-              <h1 className="heading" style={{ color: selectedSubstance.color }}>
-                {language === 'en' ? (selectedSubstance.name_en || selectedSubstance.name) : selectedSubstance.name}
-              </h1>
-              <p className="substance-full-name text-dim">{selectedSubstance.fullName}</p>
-            </div>
-            <div className="class-badge" style={{ borderColor: selectedSubstance.color + '44' }}>
-               {language === 'en' ? (selectedSubstance.class_en || selectedSubstance.class) : selectedSubstance.class}
-            </div>
-          </header>
+          {loading || !selectedSubstance ? (
+            <div className="loading-state">Ładowanie...</div>
+          ) : (
+            <>
+              <header className="detail-header">
+                <div className="title-area">
+                  <h1 className="heading" style={{ color: selectedSubstance.color }}>
+                    {language === 'en' ? (selectedSubstance.name_en || selectedSubstance.name_pl) : selectedSubstance.name_pl}
+                  </h1>
+                  <p className="substance-full-name text-dim">{selectedSubstance.fullName}</p>
+                </div>
+                <div className="class-badge" style={{ borderColor: selectedSubstance.color + '44' }}>
+                   {language === 'en' ? (selectedSubstance.class_en || selectedSubstance.class_pl) : selectedSubstance.class_pl}
+                </div>
+              </header>
 
-          <div className="viz-grid">
-            <div className="viz-card">
-              <SynapseAnimation 
-                substance={selectedSubstance} 
+              <div className="viz-grid">
+                <div className="viz-card">
+                  <SynapseAnimation 
+                    substance={selectedSubstance} 
+                    activeIndex={activePhaseInt} 
+                  />
+                </div>
+                <div className="viz-card">
+                  <BrainMap 
+                    activeRegions={activePhaseInt !== null ? selectedSubstance.brainMap?.[activePhaseInt] || [] : []} 
+                  />
+                </div>
+              </div>
+
+              <Timeline 
+                phases={selectedSubstance.phases} 
                 activeIndex={activePhaseInt} 
+                onSelect={setActivePhaseInt}
+                accentColor={selectedSubstance.color}
               />
-            </div>
-            <div className="viz-card">
-              <BrainMap 
-                activeRegions={activePhaseInt !== null ? selectedSubstance.brainMap?.[activePhaseInt] || [] : []} 
-              />
-            </div>
-          </div>
 
-          <Timeline 
-            phases={selectedSubstance.phases} 
-            activeIndex={activePhaseInt} 
-            onSelect={setActivePhaseInt}
-            accentColor={selectedSubstance.color}
-          />
-
-          <div className="info-section glass">
-            <div className="tabs">
-              <button 
-                className={`tab ${activeTab === 'guide' ? 'active' : ''}`}
-                onClick={() => setActiveTab('guide')}
-              >
-                {language === 'pl' ? 'FARMAKOLOGIA' : 'GUIDE'}
-              </button>
-              <button 
-                className={`tab ${activeTab === 'brain' ? 'active' : ''}`}
-                onClick={() => setActiveTab('brain')}
-              >
-                {language === 'pl' ? 'MAPA REGIONÓW' : 'BRAIN DETAIL'}
-              </button>
-            </div>
-            
-            <div className="tab-content html-content">
-              {activeTab === 'guide' && (
-                <div dangerouslySetInnerHTML={{ __html: getLocalizedText(synData, 'guide') }} />
-              )}
-              {activeTab === 'brain' && (
-                <div dangerouslySetInnerHTML={{ __html: getLocalizedText(synData, 'brain') }} />
-              )}
-            </div>
-          </div>
+              <div className="info-section glass">
+                <div className="tabs">
+                  <button 
+                    className={`tab ${activeTab === 'guide' ? 'active' : ''}`}
+                    onClick={() => setActiveTab('guide')}
+                  >
+                    {language === 'pl' ? 'FARMAKOLOGIA' : 'GUIDE'}
+                  </button>
+                  <button 
+                    className={`tab ${activeTab === 'brain' ? 'active' : ''}`}
+                    onClick={() => setActiveTab('brain')}
+                  >
+                    {language === 'pl' ? 'MAPA REGIONÓW' : 'BRAIN DETAIL'}
+                  </button>
+                </div>
+                
+                <div className="tab-content html-content">
+                  {activeTab === 'guide' && (
+                    <div dangerouslySetInnerHTML={{ __html: getLocalizedText(selectedSubstance, 'guide') }} />
+                  )}
+                  {activeTab === 'brain' && (
+                    <div dangerouslySetInnerHTML={{ __html: getLocalizedText(selectedSubstance, 'brain') }} />
+                  )}
+                </div>
+              </div>
+            </>
+          )}
         </div>
       )}
       

@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
-import substancesRouter from './routes/substances.js';
-import mixesRouter from './routes/mixes.js';
+import substancesRouter from './routes/substances.ts';
+import mixesRouter from './routes/mixes.ts';
 
 const app = express();
 const PORT = process.env.PORT || 3001;

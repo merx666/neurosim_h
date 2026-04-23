@@ -318,38 +318,7 @@ export const DATA = {
       { t: "Hofmann", v: "Albert Hofmann syntezował LSD-25 w 1938 jako część systematic screening alkaloidów sporyszu. Poczuł efekty przypadkowo w 1943 przy pracy z próbkami. Żył do 102 lat, do końca uważał LSD za potencjalne narzędzie terapeutyczne." },
     ]
   },
-  thc: {
-    name_en: "THC", fullName_en: "Δ9-Tetrahydrocannabinol (THC)", class_en: "Cannabinoid",
-    name: "THC", fullName: "Δ9-Tetrahydrokannabinol", class: "Fitokannabinoid", category: "cannabinoid",
-    mechanism: "Agonista CB1/CB2 — retrograde signaling, tłumienie wyrzutu NT",
-    targets: ["CB1","CB2","TRPA1"],
-    color: "#50e890",
-    nt: { da: 40, ht: 15, ne: 20 },
-    phases: [
-      { n:"Onset",       d:2,   i:25, c:"#30c060" },
-      { n:"Come-up",     d:8,   i:72, c:"#50e890" },
-      { n:"Peak",        d:40,  i:92, c:"#80ffb0" },
-      { n:"Plateau",     d:60,  i:65, c:"#50e890" },
-      { n:"Come-down",   d:60,  i:30, c:"#30a060" },
-      { n:"Aftereffects",d:120, i:10, c:"#206040" },
-    ],
-    brainMap: [
-      [{r:"Hipp",i:0.30,nt:"cb1"},{r:"PFC",i:0.28,nt:"cb1"},{r:"NAc",i:0.25,nt:"da"}],
-      [{r:"Hipp",i:0.65,nt:"cb1"},{r:"PFC",i:0.60,nt:"cb1"},{r:"Cereb",i:0.55,nt:"cb1"},{r:"NAc",i:0.50,nt:"da"},{r:"Amy",i:0.48,nt:"cb1"},{r:"VTA",i:0.42,nt:"da"},{r:"ACC",i:0.38,nt:"cb1"}],
-      [{r:"Hipp",i:0.88,nt:"cb1"},{r:"PFC",i:0.82,nt:"cb1"},{r:"Cereb",i:0.78,nt:"cb1"},{r:"NAc",i:0.72,nt:"da"},{r:"Amy",i:0.65,nt:"cb1"},{r:"Cortex",i:0.55,nt:"cb1"},{r:"VTA",i:0.58,nt:"da"},{r:"Thal",i:0.28,nt:"cb1"},{r:"ACC",i:0.48,nt:"cb1"}],
-      [{r:"Hipp",i:0.70,nt:"cb1"},{r:"PFC",i:0.65,nt:"cb1"},{r:"Cereb",i:0.60,nt:"cb1"},{r:"NAc",i:0.55,nt:"da"},{r:"Amy",i:0.50,nt:"cb1"},{r:"VTA",i:0.42,nt:"da"},{r:"ACC",i:0.40,nt:"cb1"}],
-      [{r:"Hipp",i:0.30,nt:"cb1"},{r:"PFC",i:0.28,nt:"cb1"},{r:"NAc",i:0.22,nt:"da"}],
-      [{r:"Hipp",i:0.12,nt:"cb1"},{r:"PFC",i:0.10,nt:"cb1"}],
-    ],
-    receptor: `THC działa jako <b>partial agonista CB1</b> — receptora kannabinoidowego sprzężonego z białkiem Gi/o. CB1 jest najgęściej rozmieszczonym receptorem GPCR w mózgu, obecnym głównie na aksonyh presynaptycznych. To kluczowy szczegół: THC działa <b>retrograde</b> — neuroprzekaźnik idzie "pod prąd".\n\nNorma: neuron postsynaptyczny produkuje endokannabinoidy (anandamid, 2-AG) jako sygnał zwrotny do neuronu presynaptycznego. THC imituje ten sygnał, ale nie jest metabolizowany tak szybko jak endogenne ligandy — efekt trwa znacznie dłużej.\n\nAktywacja CB1 → inhibicja adenylyl cyklazy (↓cAMP) → zamknięcie kanałów Ca²⁺ (↓wyrzutu NT) + otwarcie kanałów K⁺ (hyperpolaryzacja). Wynik: <b>tłumienie wyrzutu neuroprzekaźników</b> w połączeniach gdzie CB1 jest aktywowany.\n\nEuforia przez pośrednie działanie na DA: CB1 w VTA tłumi GABA-ergiczne interneurony → odhamowanie neuronów DA → wzrost DA w NAc. Mechanizm podobny do opioidów — deinhibicja, nie bezpośredni agonizm DA.`,
-    tolerance: `<b>Internalizacja CB1:</b> Szybka i głęboka down-regulacja. Po tygodniu codziennego użycia gęstość CB1 może spaść o 20-60% w kluczowych obszarach. Pauza 48-72h przywraca większość receptorów.\n\n<b>Specyfika regionalna:</b> Tolerancja nierównomiernie rozkłada się w mózgu. Kora (efekt poznawczy) toleruje szybciej niż pień mózgu (stąd brak przypadków śmiertelnych z przedawkowania — brak CB1 w centrach oddechowych).\n\n<b>Amotivational syndrome:</b> Przy chronicznym użyciu: zmniejszenie gęstości CB1 w korze PFC i striatum. Efekty mogą utrzymywać się tygodnie po abstynencji podczas gdy receptory się odbudowują.`,
-    compare: [
-      { t: "vs CBD", v: "THC: partial agonista CB1 = psychoaktywny. CBD: brak agonizmu CB1, moduluje aktywność CB1 allosterycznie zmniejszając efekty THC. CBD łagodzi niepożądane efekty THC (lęk, paranoję)." },
-      { t: "vs Endokannabinoidy", v: "Anandamid i 2-AG są produkowane on-demand i szybko degradowane. THC nie jest degradowany przez FAAH tak efektywnie — stąd znacznie dłuższy i globalny efekt vs precyzyjny sygnał endogenny." },
-      { t: "Pojazdy", v: "Palenie: onset 2-5 min, szczyt 20-40 min. Edibles: onset 30-90 min, efekt 4-8h przez metabolizm do 11-OH-THC (silniejszy). Vaping: pośredni profil." },
-      { t: "Medycyna", v: "Zatwierdzone wskazania: ból neuropatyczny, nudności przy chemioterapii (dronabinol), spastyczność w SM (nabiximols). Badania: PTSD, epilepsja, apetyt przy HIV." },
-    ]
-  },
+
   cbd: {
     name_en: "CBD", fullName_en: "Cannabidiol (CBD)", class_en: "Cannabinoid",
     name: "CBD", fullName: "Kannabidiol", class: "Fitokannabinoid", category: "cannabinoid",
@@ -506,7 +475,351 @@ export const DATA = {
       { t: "Oksybat sodu", v: "GHB sodu (Xyrem) — zatwierdzony FDA dla narkolepsji z katapleksją. Normalizuje architekturę snu przez GABA-B." },
     ]
   },
+
+  "2cb": {
+    name_en: "2C-B", fullName_en: "2C-B (Nexus)", class_en: "Phenethylamine Psychedelic",
+    name: "2C-B", fullName: "4-Bromo-2,5-dimetoksyfenyloetyloamina", class: "Fenyloetylomina / Psychedelik", category: "psychedelic",
+    mechanism: "Częściowy agonista 5-HT2A i 5-HT2C · modulator receptorów serotoninowych",
+    targets: ["5-HT2A","5-HT2C","5-HT2B","α1-adrenergiczne"],
+    color: "#ff88cc",
+    nt: { ht: 85, da: 25, ne: 15 },
+    phases: [
+      { n:"Onset", d:45, i:12, c:"#ffaaee" },
+      { n:"Come-up", d:60, i:58, c:"#ff88dd" },
+      { n:"Peak", d:150, i:90, c:"#ff66cc" },
+      { n:"Plateau", d:120, i:72, c:"#ff44bb" },
+      { n:"Come-down", d:90, i:30, c:"#dd22aa" },
+      { n:"Aftereffects", d:360, i:8, c:"#aa0088" },
+    ],
+    brainMap: [
+      [{r:"Raphe",i:0.32,nt:"ht"},{r:"VCtx",i:0.35,nt:"ht"},{r:"Amy",i:0.25,nt:"ht"}],
+      [{r:"Raphe",i:0.68,nt:"ht"},{r:"VCtx",i:0.75,nt:"ht"},{r:"Cortex",i:0.60,nt:"ht"},{r:"PFC",i:0.55,nt:"ht"},{r:"Amy",i:0.58,nt:"ht"}],
+      [{r:"Raphe",i:0.82,nt:"ht"},{r:"VCtx",i:0.96,nt:"ht"},{r:"Cortex",i:0.88,nt:"ht"},{r:"PFC",i:0.85,nt:"ht"},{r:"Amy",i:0.80,nt:"ht"},{r:"Hipp",i:0.65,nt:"ht"},{r:"Thal",i:0.72,nt:"ht"},{r:"ACC",i:0.75,nt:"ht"},{r:"NAc",i:0.45,nt:"da"}],
+      [{r:"Raphe",i:0.70,nt:"ht"},{r:"VCtx",i:0.78,nt:"ht"},{r:"Cortex",i:0.72,nt:"ht"},{r:"PFC",i:0.68,nt:"ht"},{r:"Amy",i:0.55,nt:"ht"}],
+      [{r:"VCtx",i:0.38,nt:"ht"},{r:"Cortex",i:0.32,nt:"ht"},{r:"Raphe",i:0.25,nt:"ht"}],
+      [{r:"VCtx",i:0.12,nt:"ht"},{r:"PFC",i:0.10,nt:"ht"}],
+    ],
+    receptor: `2C-B (Nexus) to jedna z najpopularniejszych substancji z rodziny 2C, syntezowana przez Alexandra Shulgina w 1974 r. Działa głównie jako <b>częściowy agonista receptora 5-HT2A</b>, ale posiada również wysokie powinowactwo do <b>5-HT2C</b>.\n\n<b>Specyfika wizualna:</b> Silna aktywacja 5-HT2A w korze wzrokowej (VCtx) generuje charakterystyczne, nasycone barwami i geometryczne fraktale. 2C-B jest często opisywane jako "lżejsze" psychicznie niż LSD, z większym komponentem sensorycznym i erogenicznym.\n\n<b>Komponent adrenergiczny:</b> Działanie na receptory α1-adrenergiczne odpowiada za "body load" — napięcie mięśniowe, drżenia i stymulację fizyczną, która dla wielu jest bardziej odczuwalna niż przy klasycznych tryptaminach.\n\n<b>Erogeniczność:</b> Przy niskich dawkach (5–15 mg) 2C-B działa bardziej jako entaktogen i afrodyzjak, co Shulgin opisał w PiHKAL jako jedną z najcennurowych właściwości tej cząsteczki.`,
+    tolerance: `<b>Niska tolerancja:</b> W przeciwieństwie do LSD, 2C-B wykazuje znacznie wolniejszy przyrost tolerancji. Możliwe jest skuteczne użycie dwa dni z rzędu bez drastycznego zwiększania dawki, choć nie jest to zalecane ze względu na obciążenie OUN.\n\n<b>Krzyżowa tolerancja:</b> LSD i psylocybina budują silną tolerancję na 2C-B, ale 2C-B użyte jako pierwsze buduje znacznie słabszą tolerancję na klasyczne psychedeliki.\n\n<b>Bezpieczeństwo:</b> Brak dowodów na neurotoksyczność przy dawkach rekreacyjnych. Główne ryzyko to lęk (bad trip) i fizyczny dyskomfort przy wyższych dawkach.`,
+    compare: [
+      { t: "vs LSD", v: "2C-B jest krótsze (4-6h vs 8-12h), mniej obciążające analitycznie, bardziej skupione na ciele i zmysłach. LSD ma głębszy komponent filozoficzny/ego-dissolution." },
+      { t: "vs MDMA", v: "2C-B bywa nazywane 'psychedelikańskim MDMA'. Jest mniej empatogenne, nie wyczerpuje magazynów serotoniny (brak releasingu), stąd brak charakterystycznego MDMA-crashu." },
+      { t: "vs Meskalina", v: "Meskalina jest naturalnym pierwowzorem 2C-B. Meskalina jest znacznie dłuższa (12-16h), bardziej 'duchowa' i często powoduje silniejsze nudności." },
+      { t: "Shulgin", v: "Alexander Shulgin uważał 2C-B za jedną ze swoich 'magic half-dozen' — najważniejszych odkryć w historii farmakologii psychedelicznej." },
+    ]
+  },
+
+  caffeine: {
+    name_en: "Caffeine", fullName_en: "Caffeine", class_en: "Xanthine",
+    name: "Kofeina", fullName: "Kofeina (1,3,7-trimetyloksantyna)", class: "Ksantyna / Stymulant", category: "stimulant",
+    mechanism: "Antagonista receptorów adenozyny A1 i A2A · inhibitor PDE (wysokie dawki)",
+    targets: ["A1","A2A","PDE","RyR"],
+    color: "#a0522d",
+    nt: { ne: 40, da: 25, ht: 10 },
+    phases: [
+      { n:"Onset", d:15, i:20, c:"#8b4513" },
+      { n:"Come-up", d:15, i:55, c:"#a0522d" },
+      { n:"Peak", d:60, i:88, c:"#d2691e" },
+      { n:"Plateau", d:180, i:65, c:"#a0522d" },
+      { n:"Come-down", d:120, i:28, c:"#8b4513" },
+      { n:"Aftereffects", d:360, i:12, c:"#5d2906" },
+    ],
+    brainMap: [
+      [{r:"Cortex",i:0.35,nt:"ne"},{r:"PFC",i:0.30,nt:"ne"},{r:"Striatum",i:0.25,nt:"da"}],
+      [{r:"Cortex",i:0.72,nt:"ne"},{r:"PFC",i:0.68,nt:"ne"},{r:"Striatum",i:0.55,nt:"da"},{r:"Hipp",i:0.52,nt:"ne"},{r:"Thal",i:0.48,nt:"ne"}],
+      [{r:"Cortex",i:0.88,nt:"ne"},{r:"PFC",i:0.85,nt:"ne"},{r:"Striatum",i:0.72,nt:"da"},{r:"Hipp",i:0.65,nt:"ne"},{r:"Thal",i:0.62,nt:"ne"},{r:"Amy",i:0.58,nt:"ne"},{r:"Cereb",i:0.55,nt:"ne"},{r:"LC",i:0.68,nt:"ne"}],
+      [{r:"Cortex",i:0.65,nt:"ne"},{r:"PFC",i:0.60,nt:"ne"},{r:"Striatum",i:0.48,nt:"da"},{r:"LC",i:0.45,nt:"ne"}],
+      [{r:"Cortex",i:0.28,nt:"ne"},{r:"PFC",i:0.25,nt:"ne"},{r:"Striatum",i:0.18,nt:"da"}],
+      [{r:"Cortex",i:0.12,nt:"ne"},{r:"LC",i:0.15,nt:"ne"}],
+    ],
+    receptor: `Kofeina działa głównie jako <b>antagonista receptorów adenozyny A1 i A2A</b>. Adenozyna jest neuromodulatorem, który gromadzi się w ciągu dnia i sygnalizuje zmęczenie, hamując wyrzut neuroprzekaźników pobudzających.\n\n<b>Blokada A1:</b> Receptory A1 normalnie hamują wyrzut DA, NE i Ach. Kofeina usuwa ten hamulec, co prowadzi do zwiększonej czujności i poprawy funkcji poznawczych.\n\n<b>Blokada A2A:</b> Receptory te są sprzężone z receptorami dopaminowymi D2 w prążkowiu (striatum). Blokada A2A zwiększa powinowactwo dopaminy do D2, co tłumaczy euforyczny i motywujący komponent kofeiny.\n\n<b>Inhibicja PDE:</b> Przy wysokich dawkach kofeina hamuje fosfodiesterazę, co zwiększa poziom cAMP w komórkach. To mechanizm wzmacniający efekty adrenergiczne (drżenia, tachykardia).`,
+    receptor_en: `Caffeine acts primarily as an <b>antagonist of adenosine A1 and A2A receptors</b>. Adenosine is a neuromodulator that accumulates during the day and signals fatigue, inhibiting the release of excitatory neurotransmitters.\n\n<b>A1 Blockade:</b> A1 receptors normally inhibit the release of DA, NE, and Ach. Caffeine removes this brake, leading to increased alertness and improved cognitive function.\n\n<b>A2A Blockade:</b> These receptors are coupled with dopamine D2 receptors in the striatum. A2A blockade increases dopamine's affinity for D2, explaining caffeine's euphoric and motivating component.\n\n<b>PDE Inhibition:</b> At high doses, caffeine inhibits phosphodiesterase, increasing intracellular cAMP levels. This mechanism enhances adrenergic effects (jitters, tachycardia).`,
+    tolerance: `<b>Up-regulacja receptorów adenozyny:</b> Mózg w odpowiedzi na stałą obecność kofeiny produkuje więcej receptorów adenozyny. To dlatego po odstawieniu czujemy ekstremalne zmęczenie — naturalna adenozyna ma teraz znacznie więcej miejsc wiązania.\n\n<b>Zależność fizyczna:</b> Ból głowy przy odstawieniu wynika z rozszerzenia naczyń krwionośnych (adenozyna działa wazodylatacyjnie, kofeina wazokonstrykcyjnie).\n\n<b>Półtrwania:</b> Wynosi średnio 5h, ale jest silnie zależne od genetyki (CYP1A2) i czynników zewnętrznych (palenie przyspiesza, antykoncepcja spowalnia).`,
+    tolerance_en: `<b>Adenosine receptor up-regulation:</b> The brain responds to caffeine's presence by producing more adenosine receptors. This is why we feel extreme fatigue after quitting — natural adenosine now has many more binding sites.\n\n<b>Physical dependence:</b> Withdrawal headaches result from vasodilation (adenosine is a vasodilator, caffeine a vasoconstrictor).\n\n<b>Half-life:</b> Averages 5h but is highly dependent on genetics (CYP1A2) and external factors (smoking speeds it up, birth control slows it down).`,
+    compare: [
+      { t: "vs Amfetamina", v: "Kofeina usuwa zmęczenie przez blokadę adenozyny, amfetamina wymusza wyrzut dopaminy i noradrenaliny. Kofeina jest 'pożyczaniem energii', amfetamina to 'spalanie rezerw'." },
+      { t: "vs Teanina", v: "L-teanina (obecna w herbacie) działa synergistycznie z kofeiną — redukuje lęk i podenerwowanie, zachowując fokus. Idealne połączenie dla pracy umysłowej." },
+      { t: "Bezpieczeństwo", v: "Dawka śmiertelna to ok. 10g (ok. 50-100 kaw). Głównym zagrożeniem jest kardiotoksyczność przy łączeniu z innymi stymulantami." },
+      { t: "Statystyka", v: "Najczęściej używana substancja psychoaktywna na świecie. Ponad 80% dorosłych w krajach rozwiniętych spożywa kofeinę codziennie." },
+    ]
+  },
+
+  alcohol: {
+    name_en: "Alcohol", fullName_en: "Alcohol (Ethanol)", class_en: "Sedative / Hypnotic",
+    name: "Alkohol", fullName: "Alkohol etylowy (Etanol)", class: "Depresant / Sedatyw", category: "gabaergic",
+    mechanism: "Pozytywny modulator GABA-A + antagonista NMDA + agonista 5-HT3",
+    targets: ["GABA-A","NMDA","5-HT3","nAchR","μ-OR (indirect)"],
+    color: "#ff9900",
+    nt: { gaba: 75, da: 35, ht: 20 },
+    phases: [
+      { n:"Onset", d:15, i:15, c:"#ffaa44" },
+      { n:"Buzz", d:30, i:52, c:"#ff9922" },
+      { n:"Peak", d:90, i:88, c:"#ff8800" },
+      { n:"Plateau", d:120, i:64, c:"#ee7700" },
+      { n:"Come-down", d:180, i:22, c:"#cc6600" },
+      { n:"Aftereffects", d:720, i:14, c:"#aa5500" },
+    ],
+    brainMap: [
+      [{r:"Cortex",i:0.32,nt:"gaba"},{r:"PFC",i:0.35,nt:"gaba"},{r:"NAc",i:0.28,nt:"da"}],
+      [{r:"Cortex",i:0.58,nt:"gaba"},{r:"PFC",i:0.62,nt:"gaba"},{r:"NAc",i:0.55,nt:"da"},{r:"Amy",i:0.48,nt:"gaba"},{r:"Cereb",i:0.45,nt:"gaba"}],
+      [{r:"Cortex",i:0.82,nt:"gaba"},{r:"PFC",i:0.88,nt:"gaba"},{r:"NAc",i:0.75,nt:"da"},{r:"Amy",i:0.72,nt:"gaba"},{r:"Cereb",i:0.85,nt:"gaba"},{r:"Hipp",i:0.62,nt:"gaba"},{r:"Thal",i:0.58,nt:"gaba"},{r:"VTA",i:0.60,nt:"da"}],
+      [{r:"Cortex",i:0.65,nt:"gaba"},{r:"PFC",i:0.60,nt:"gaba"},{r:"NAc",i:0.48,nt:"da"},{r:"Cereb",i:0.55,nt:"gaba"}],
+      [{r:"Cortex",i:0.28,nt:"gaba"},{r:"PFC",i:0.25,nt:"gaba"},{r:"Cereb",i:0.30,nt:"gaba"}],
+      [{r:"Cortex",i:0.12,nt:"gaba"},{r:"Amy",i:0.15,nt:"gaba"}],
+    ],
+    receptor: `Etanol to mała cząsteczka o niezwykle szerokim spektrum działania — oddziałuje na prawie wszystkie systemy neuroprzekaźnikowe przez wpływ na płynność błon komórkowych i bezpośrednie wiązanie z białkami.\n\n<b>GABA-A:</b> Alkohol wzmacnia działanie GABA (PAM), co prowadzi do anksjolizy i sedacji. Szczególnie silnie działa na podjednostki zawierające δ, obecne poza synapsami.\n\n<b>NMDA:</b> Działa jako antagonista receptora NMDA, co upośledza pamięć (blackouty) i hamuje pobudliwość kory. Chroniczne użycie prowadzi do up-regulacji NMDA, co jest kluczowe dla mechanizmu odstawiennego.\n\n<b>Dopamina:</b> Wzrost DA in NAc wynika z deinhibicji neuronów VTA (tłumienie interneuronów GABA) oraz wpływu na receptory 5-HT3 i opioidowe.\n\n<b>Toksyczność:</b> Metabolit <b>acetaldehyd</b> jest wysoce reaktywny i toksyczny, odpowiada za większość szkód narządowych i objawy kaca.`,
+    receptor_en: `Ethanol is a small molecule with an incredibly broad spectrum of action — it affects almost all neurotransmitter systems by influencing cell membrane fluidity and binding directly to proteins.\n\n<b>GABA-A:</b> Alcohol enhances GABA action (PAM), leading to anxiolysis and sedation. It acts particularly strongly on δ-containing subunits, located extrasynaptically.\n\n<b>NMDA:</b> It acts as an NMDA receptor antagonist, impairing memory (blackouts) and inhibiting cortical excitability. Chronic use leads to NMDA up-regulation, which is key to the withdrawal mechanism.\n\n<b>Dopamine:</b> The rise in DA in the NAc results from VTA neuron disinhibition (suppression of GABA interneurons) and influence on 5-HT3 and opioid receptors.\n\n<b>Toxicity:</b> The metabolite <b>acetaldehyde</b> is highly reactive and toxic, responsible for most organ damage and hangover symptoms.`,
+    tolerance: `<b>Farmakodynamiczna:</b> Down-regulacja GABA-A i up-regulacja NMDA. To sprawia, że mózg alkoholika jest w stanie permanentnego "nadpobudzenia", które jest maskowane przez alkohol.\n\n<b>Metaboliczna:</b> Indukcja enzymów (ADH i CYP2E1) w wątrobie przyspiesza eliminację alkoholu.\n\n<b>Withdrawal:</b> Delirium Tremens — stan zagrożenia życia wynikający z nagłego braku inhibicji (GABA) przy jednocieznej nadpobudliwości (NMDA).`,
+    tolerance_en: `<b>Pharmacodynamic:</b> GABA-A down-regulation and NMDA up-regulation. This makes an alcoholic's brain in a permanent state of "hyperexcitability," which is masked by alcohol.\n\n<b>Metabolic:</b> Induction of enzymes (ADH and CYP2E1) in the liver accelerates alcohol elimination.\n\n<b>Withdrawal:</b> Delirium Tremens — a life-threatening condition resulting from a sudden lack of inhibition (GABA) combined with hyperexcitability (NMDA).`,
+    compare: [
+      { t: "vs Benzodiazepiny", v: "Podobny mechanizm GABA-A (PAM), ale benzo są bardziej selektywne i nie blokują NMDA. Alkohol jest znacznie bardziej toksyczny narządowo." },
+      { t: "vs GHB", v: "GHB działa na GABA-B, alkohol głównie na GABA-A. Oba mają krótki czas działania i niebezpieczne interakcje. GHB jest mniej obciążający dla wątroby." },
+      { t: "Kac", v: "Złożony proces: odwodnienie, toksyczność acetaldehydu, stan zapalny cytokinowy oraz 'mini-withdrawal' (odbicie glutaminianowe)." },
+      { t: "Statystyka", v: "Najbardziej szkodliwa substancja w rankingach biorących pod uwagę szkody społeczne i zdrowotne (Nutt et al. 2010)." },
+    ]
+  },
+
+  nicotine: {
+    name_en: "Nicotine", fullName_en: "Nicotine", class_en: "Pyridine Alkaloid",
+    name: "Nikotyna", fullName: "Nikotyna (alkaloid pirydynowy)", class: "Alkaloid / Stymulant", category: "stimulant",
+    mechanism: "Agonista nikotynowych receptorów acetylocholiny (nAChR)",
+    targets: ["nAChR","DAT (indirect)","NET (indirect)"],
+    color: "#b5a642",
+    nt: { da: 45, ne: 40 },
+    phases: [
+      { n: "Onset", d: 1, i: 15, c: "#c5b652" },
+      { n: "Peak", d: 10, i: 92, c: "#d5c662" },
+      { n: "Plateau", d: 20, i: 68, c: "#b5a642" },
+      { n: "Come-down", d: 30, i: 22, c: "#958632" },
+      { n: "Aftereffects", d: 120, i: 5, c: "#756622" },
+    ],
+    brainMap: [
+      [{ r: "VTA", i: 0.45, nt: "da" }, { r: "NAc", i: 0.35, nt: "da" }, { r: "LC", i: 0.30, nt: "ne" }],
+      [{ r: "VTA", i: 0.88, nt: "da" }, { r: "NAc", i: 0.92, nt: "da" }, { r: "LC", i: 0.75, nt: "ne" }, { r: "PFC", i: 0.65, nt: "da" }, { r: "Thal", i: 0.50, nt: "ne" }],
+      [{ r: "VTA", i: 0.65, nt: "da" }, { r: "NAc", i: 0.60, nt: "da" }, { r: "LC", i: 0.55, nt: "ne" }, { r: "PFC", i: 0.48, nt: "da" }],
+      [{ r: "VTA", i: 0.30, nt: "da" }, { r: "NAc", i: 0.25, nt: "da" }, { r: "LC", i: 0.28, nt: "ne" }],
+      [{ r: "NAc", i: 0.10, nt: "da" }, { r: "LC", i: 0.12, nt: "ne" }],
+    ],
+    receptor: `Nikotyna działa jako <b>agonista receptorów nikotynowych (nAChR)</b>, które są jonotropowymi receptorami acetylocholiny. W mózgu dominują podtypy α4β2 oraz α7.\n\n<b>Układ Nagrody:</b> Wiązanie z α4β2 nAChRs na neuronach dopaminowych w <b>VTA</b> (Ventrual Tegmental Area) oraz na interneuronach GABA-ergicznych prowadzi do zwiększonego wyrzutu dopaminy w <b>jądrze półleżącym (NAc)</b>. Jest to fundamentalny mechanizm uzależniający.\n\n<b>Kognicja i Fokus:</b> Aktywacja nAChR w korze przedczołowej (PFC) i hipokampie poprawia uwagę, pamięć roboczą i szybkość przetwarzania informacji. Jednocześnie aktywacja receptorów w <b>miejscu sinawym (LC)</b> zwiększa uwalnianie noradrenaliny, co odpowiada za efekt pobudzający.\n\n<b>Obwód:</b> Nikotyna stymuluje również uwalnianie acetylocholiny, glutaminianu i endorfin, co tworzy złożony profil kognitywno-euforyczny.`,
+    receptor_en: `Nicotine acts as an <b>agonist of nicotinic receptors (nAChR)</b>, which are ionotropic acetylcholine receptors. The α4β2 and α7 subtypes dominate in the brain.\n\n<b>Reward System:</b> Binding to α4β2 nAChRs on dopamine neurons in the <b>VTA</b> (Ventral Tegmental Area) and on GABAergic interneurons leads to increased dopamine release in the <b>nucleus accumbens (NAc)</b>. This is a fundamental addictive mechanism.\n\n<b>Cognition and Focus:</b> nAChR activation in the prefrontal cortex (PFC) and hippocampus improves attention, working memory, and information processing speed. Simultaneously, receptor activation in the <b>locus coeruleus (LC)</b> increases noradrenaline release, responsible for the stimulant effect.\n\n<b>Circuitry:</b> Nicotine also stimulates the release of acetylcholine, glutamate, and endorphins, creating a complex cognitive-euphoric profile.`,
+    tolerance: `<b>Desensytyzacja:</b> Receptory nAChR ulegają bardzo szybkiej desensytyzacji (wyłączeniu) po kontakcie z agonistą. To dlatego pierwszy papieros dnia smakuje najlepiej, a kolejne mają słabsze działanie.\n\n<b>Up-regulacja:</b> Paradoksalnie, przewlekłe używanie nikotyny prowadzi do <b>zwiększenia gęstości (up-regulacji)</b> receptorów nAChR w mózgu, co jest mechanizmem kompensacyjnym i kluczowym elementem silnego uzależnienia fizycznego.\n\n<b>Głód:</b> Spadek poziomu nikotyny prowadzi do nadaktywności układów stresu (amygdala) i deficytu dopaminy, co objawia się silną drażliwością i problemami z koncentracją.`,
+    tolerance_en: `<b>Desensitization:</b> nAChR receptors undergo very rapid desensitization (shutting down) after contact with an agonist. This is why the first cigarette of the day feels best, and subsequent ones have a weaker effect.\n\n<b>Up-regulation:</b> Paradoxically, chronic nicotine use leads to <b>increased density (up-regulation)</b> of nAChR receptors in the brain, a compensatory mechanism and key element of strong physical addiction.\n\n<b>Cravings:</b> A drop in nicotine levels leads to hyperactivity of stress systems (amygdala) and dopamine deficits, manifesting as severe irritability and concentration problems.`,
+    compare: [
+      { t: "vs Kofeina", v: "Nikotyna jest silniejszym stymulantem z wyższym potencjałem uzależniającym. Kofeina blokuje adenozynę, nikotyna bezpośrednio aktywuje receptory acetylocholiny i pośrednio dopaminy." },
+      { t: "vs Amfetamina", v: "Amfetamina to potężny releasing agent, nikotyna to agonista receptorowy. Nikotyna ma znacznie krótszy czas działania i mniejszą amplitudę euforii, ale często silniejszy behawioralny przymus użycia." },
+      { t: "Kardio", v: "Obie substancje obciążają układ krwionośny, ale nikotyna robi to głównie przez nAChR w zwojach autonomicznych i uwalnianie adrenaliny z nadnerczy." },
+      { t: "Nootropik", v: "W niskich dawkach (plaster/guma) nikotyna jest badana jako środek poprawiający funkcje poznawcze bez toksyczności związanej ze spalaniem tytoniu." },
+    ]
+  },
+
+  salvia: {
+    name_en: "Salvia", fullName_en: "Salvia Divinorum", class_en: "Diterpenoid Psychedelic",
+    name: "Salwia", fullName: "Salvia Divinorum (Salwinoryna A)", class: "Diterpenoid / Dysocjant", category: "dissociative",
+    mechanism: "Selektywny agonista receptora Kappa-opioidowego (KOR)",
+    targets: ["κ-OR"],
+    color: "#4a6741",
+    nt: { ht: 35, da: 5 },
+    phases: [
+      { n: "Onset", d: 0.5, i: 45, c: "#5a7751" },
+      { n: "Peak", d: 5, i: 98, c: "#4a6741" },
+      { n: "Plateau", d: 10, i: 62, c: "#3a5731" },
+      { n: "Come-down", d: 15, i: 18, c: "#2a4721" },
+    ],
+    brainMap: [
+      [{ r: "Thal", i: 0.40, nt: "ht" }, { r: "Cortex", i: 0.35, nt: "ht" }, { r: "Amy", i: 0.30, nt: "ht" }],
+      [{ r: "Claustrum", i: 0.95, nt: "ht" }, { r: "Cortex", i: 0.90, nt: "ht" }, { r: "Thal", i: 0.85, nt: "ht" }, { r: "VCtx", i: 0.88, nt: "ht" }, { r: "VTA", i: 0.65, nt: "da" }, { r: "Hipp", i: 0.70, nt: "ht" }],
+      [{ r: "Claustrum", i: 0.65, nt: "ht" }, { r: "Cortex", i: 0.58, nt: "ht" }, { r: "Thal", i: 0.52, nt: "ht" }, { r: "PFC", i: 0.45, nt: "ht" }],
+      [{ r: "Cortex", i: 0.22, nt: "ht" }, { r: "Thal", i: 0.18, nt: "ht" }],
+    ],
+    receptor: `Salwinoryna A to <b>najsilniejszy naturalnie występujący psychodelik</b> i jedyny znany nienitrogenowy (pozbawiony azotu) agonista receptorów opioidowych.\n\n<b>Kappa-Opioid (KOR):</b> W przeciwieństwie do klasycznych psychodelików (5-HT2A), Salwia działa przez receptory KOR. Aktywacja KOR w <b>Przedmurzu (Claustrum)</b> — strukturze integrującej informacje ze wszystkich zmysłów — prowadzi do radykalnej rekonfiguracji świadomości i poczucia "rozpadu rzeczywistości".\n\n<b>Inhibicja DA:</b> Aktywacja KOR na zakończeniach dopaminergicznych w prążkowiu hamuje uwalnianie dopaminy. To wyjaśnia, dlaczego Salwia często wywołuje dysforię lub lęk zamiast euforii.\n\n<b>Dysocjacja:</b> Efekt jest głęboko dysocjatywny, często opisywany jako poczucie bycia przedmiotem nieożywionym lub przebywanie w innych wymiarach, co wynika z dezorganizacji pracy kory asocjacyjnej i wzgórza.`,
+    tolerance: `<b>Tolerancja odwrócona:</b> Użytkownicy często raportują, że przy kolejnych próbach potrzebują <b>mniejszych dawek</b>, aby osiągnąć ten sam efekt. Mechanizm ten nie jest w pełni wyjaśniony, ale może wiązać się z uwrażliwieniem receptorów KOR lub nauką rozpoznawania subtelnych zmian w percepcji.\n\n<b>Brak uzależnienia:</b> Salwia nie aktywuje układu nagrody (wręcz go hamuje), co sprawia, że posiada zerowy potencjał uzależniający. Większość użytkowników ze względu na intensywność doświadczenia nie czuje potrzeby częstego powracania do substancji.`,
+    compare: [
+      { t: "vs DMT", v: "Oba są ekstremalnie krótkie i intensywne. DMT działa przez 5-HT2A i jest bardziej 'świetliste/geometryczne'. Salwia działa przez KOR i jest bardziej 'mechaniczna/cielesna' w swoich wizjach." },
+      { t: "vs Ketamina", v: "Oba są dysocjantami, ale o skrajnie różnych mechanizmach. Ketamina (NMDA) daje 'oddzielenie' od ciała, Salwia (KOR) daje 'przekształcenie' ciała lub otoczenia w coś innego." },
+      { t: "KOR vs MOR", v: "Receptory Kappa (KOR) dają dysocjację i dysforię, receptory Mu (MOR, jak w heroinie) dają euforię i analgezję. To dwa przeciwstawne bieguny układu opioidowego." },
+      { t: "Legalność", v: "W wielu krajach (w tym w Polsce od 2009 r.) Salwia jest substancją kontrolowaną, mimo braku toksyczności narządowej i potencjału uzależniającego." },
+    ]
+  },
+
+  nitrous: {
+    name_en: "Nitrous Oxide", fullName_en: "Nitrous Oxide", class_en: "Dissociative Anaesthetic / Inhalant",
+    name: "Podtlenek Azotu", fullName: "Podtlenek Azotu (Gaz rozweselający)", class: "Inhalant / Dysocjant", category: "dissociative",
+    mechanism: "Antagonista NMDA + pozytywny modulator GABA-A + uwalnianie opioidów",
+    targets: ["NMDA","GABA-A","μ-OR (indirect)","nAchR"],
+    color: "#3498db",
+    nt: { gaba: 45, da: 30, opioid: 25 },
+    phases: [
+      { n: "Onset", d: 0.1, i: 35, c: "#5dade2" },
+      { n: "Peak", d: 1, i: 95, c: "#3498db" },
+      { n: "Plateau", d: 2, i: 40, c: "#2e86c1" },
+      { n: "Come-down", d: 2, i: 10, c: "#21618c" },
+    ],
+    brainMap: [
+      [{ r: "Thal", i: 0.45, nt: "glut" }, { r: "NAc", i: 0.35, nt: "da" }],
+      [{ r: "Thal", i: 0.92, nt: "glut" }, { r: "PFC", i: 0.85, nt: "glut" }, { r: "Cortex", i: 0.80, nt: "gaba" }, { r: "NAc", i: 0.70, nt: "da" }, { r: "Amy", i: 0.65, nt: "gaba" }, { r: "VTA", i: 0.60, nt: "da" }],
+      [{ r: "Thal", i: 0.50, nt: "glut" }, { r: "PFC", i: 0.45, nt: "glut" }, { r: "Cortex", i: 0.38, nt: "gaba" }],
+      [{ r: "Cortex", i: 0.15, nt: "gaba" }, { r: "NAc", i: 0.10, nt: "da" }],
+    ],
+    receptor: `Podtlenek azotu (N2O) ma unikalny, wielokierunkowy profil farmakologiczny mimo prostej budowy cząsteczkowej.\n\n<b>NMDA Antagonizm:</b> Podobnie jak ketamina, blokuje receptory NMDA, co odpowiada za efekty dysocjacyjne i znieczulające. Hamuje transmisję glutaminianową, co 'rozłącza' komunikację między korą a wzgórzem.\n\n<b>GABA-A Modulacja:</b> Działa jako pozytywny modulator receptorów GABA-A (podobnie jak benzodiazepiny czy alkohol), co tłumaczy efekty anksjolityczne i rozluźniające.\n\n<b>System Opioidowy:</b> Stymuluje uwalnianie endogennych opioidów (dynorfin i enkefalin) w istocie szarej okołowodociągowej (PAG), co odpowiada za działanie przeciwbólowe.\n\n<b>Dopamina:</b> Wzrost dopaminy w NAc wynika prawdopodobnie z blokady NMDA na interneuronach hamujących w VTA (deinhibicja).`,
+    tolerance: `<b>Tolerancja:</b> Narasta bardzo szybko przy częstym używaniu (sesje 'binge'), ale równie szybko wraca do baseline.\n\n<b>Witamina B12:</b> Kluczowe zagrożenie przy nadużywaniu. N2O utlenia atom kobaltu w cząsteczce witaminy B12, trwale dezaktywując syntazę metioninową. Może to prowadzić do <b>zwyrodnienia powrózkowego rdzenia kręgowego</b>, anemii megaloblastycznej i neuropatii.\n\n<b>Niedotlenienie:</b> Największym bezpośrednim ryzykiem jest asfiksja (brak tlenu), jeśli gaz jest wdychany w sposób odcinający dopływ powietrza.`,
+    compare: [
+      { t: "vs Ketamina", v: "Oba są antagonistami NMDA, ale N2O działa znacznie krócej (minuty vs godziny) i ma silniejszy komponent GABAergiczny/opioidowy. Ketamina jest silniejszym 'rozłącznikiem' świadomości." },
+      { t: "vs Alkohol", v: "Podtlenek azotu bywa nazywany 'alkoholem w gazie' ze względu na podobne rozluźnienie i euforię, ale mechanizm dysocjacyjny (NMDA) jest w N2O znacznie bardziej dominujący." },
+      { t: "Medycyna", v: "Stosowany w stomatologii i położnictwie jako bezpieczny środek przeciwbólowy i uspokajający ('gaz rozweselający'). Szybki onset i offset pozwalają na precyzyjną kontrolę stanu pacjenta." },
+      { t: "Harm Reduction", v: "Kluczowa jest suplementacja witaminy B12 przy regularnym użyciu oraz dbanie o dopływ tlenu (wdychanie z balona, nie bezpośrednio z butli)." },
+    ]
+  },
+
+  alprazolam: {
+    name_en: "Alprazolam", fullName_en: "Alprazolam (Xanax)", class_en: "Benzodiazepine",
+    name: "Alprazolam", fullName: "Alprazolam (Xanax)", class: "Benzodiazepina (triazolowa)", category: "gabaergic",
+    mechanism: "Silny pozytywny modulator allosteryczny GABA-A (wysokie powinowactwo)",
+    targets: ["GABA-A (BZD site)","α1","α2","α3","α5"],
+    color: "#4a90e2",
+    nt: { gaba: 90, da: 15, ht: 5 },
+    phases: [
+      { n: "Onset", d: 15, i: 25, c: "#5ca0f2" },
+      { n: "Peak", d: 60, i: 95, c: "#4a90e2" },
+      { n: "Plateau", d: 120, i: 80, c: "#3a80d2" },
+      { n: "Come-down", d: 180, i: 30, c: "#2a70c2" },
+      { n: "Aftereffects", d: 480, i: 10, c: "#1a60b2" },
+    ],
+    brainMap: [
+      [{ r: "Amy", i: 0.65, nt: "gaba" }, { r: "Thal", i: 0.40, nt: "gaba" }, { r: "Cortex", i: 0.35, nt: "gaba" }],
+      [{ r: "Amy", i: 0.98, nt: "gaba" }, { r: "Thal", i: 0.85, nt: "gaba" }, { r: "Cortex", i: 0.75, nt: "gaba" }, { r: "Hipp", i: 0.72, nt: "gaba" }, { r: "PFC", i: 0.68, nt: "gaba" }, { r: "ACC", i: 0.65, nt: "gaba" }],
+      [{ r: "Amy", i: 0.82, nt: "gaba" }, { r: "Thal", i: 0.70, nt: "gaba" }, { r: "Cortex", i: 0.60, nt: "gaba" }, { r: "LC", i: 0.55, nt: "gaba" }],
+      [{ r: "Amy", i: 0.35, nt: "gaba" }, { r: "Cortex", i: 0.25, nt: "gaba" }],
+    ],
+    receptor: `Alprazolam to pochodna triazolowa benzodiazepiny o <b>bardzo wysokiej potencji</b> i krótkim czasie działania. Jako PAM (Positive Allosteric Modulator) receptorów GABA-A, zwiększa częstotliwość otwierania kanałów chlorkowych.\n\n<b>Selektywność:</b> Alprazolam posiada szczególnie wysokie powinowactwo do podjednostek α1 (efekt sedatywny/amnestyczny) oraz α2/α3 (efekt anksjolityczny). Silne działanie na <b>Ciało migdałowate (Amy)</b> odpowiada za błyskawiczne wygaszanie reakcji lękowych i 'panic attack suppression'.\n\n<b>Farmakokinetyka:</b> Szybka absorpcja doustna (Tmax ~1-2h) i relatywnie krótki okres półtrwania (11-15h) sprawiają, że alprazolam jest idealny do przerywania ostrych stanów lękowych, ale jednocześnie posiada najwyższy potencjał uzależniający i kompulsywny wśród benzodwuazepin.`,
+    tolerance: `<b>Błyskawiczna adaptacja:</b> Ze względu na silne wiązanie, down-regulacja receptorów GABA-A następuje szybciej niż przy diazepamie. Tolerancja na efekt nasenny pojawia się już po kilku dniach.\n\n<b>Rebound Anxiety:</b> Krótki czas działania powoduje, że po odstawieniu pacjenci często doświadczają lęku z odbicia, co napędza błędne koło dawkowania.\n\n<b>Zagrożenie:</b> Nagłe odstawienie po długotrwałym użyciu grozi stanem padaczkowym i śmiercią. Wymaga bardzo powolnego schodzenia z dawki (tapering).`,
+    compare: [
+      { t: "vs Diazepam", v: "Alprazolam jest ~10x silniejszy wagowo, działa znacznie krócej i silniej anksjolitycznie. Diazepam jest lepszy do długofalowego leczenia i odstawiania benzodwuazepin." },
+      { t: "vs Alkohol", v: "Alprazolam 'czyściej' uderza w GABA-A bez toksyczności acetaldehydu i wpływu na NMDA. Łączenie obu jest śmiertelnie niebezpieczne (depresja oddechowa)." },
+      { t: "Kryzys opioidowy", v: "Alprazolam jest często znajdowany w toksykologii zgonów opioidowych — potęguje on depresję oddechową wywołaną przez μ-OR agonistów." },
+    ]
+  },
+
+  methamphetamine: {
+    name_en: "Methamphetamine", fullName_en: "Methamphetamine (METH)", class_en: "Phenethylamine / Amphetamine",
+    name: "Metamfetamina", fullName: "Metamfetamina (N-metyloamfetamina)", class: "Fenyloetylomina", category: "stimulant",
+    mechanism: "Masywny releasing agent + inhibitor VMAT2 + inhibitor MAO (wysokie dawki)",
+    targets: ["DAT","NET","SERT","VMAT2","TAAR1"],
+    color: "#00ffff",
+    nt: { da: 98, ne: 95, ht: 40 },
+    phases: [
+      { n: "Onset", d: 5, i: 35, c: "#55ffff" },
+      { n: "Rush", d: 20, i: 99, c: "#00ffff" },
+      { n: "Peak", d: 240, i: 95, c: "#00eeee" },
+      { n: "Plateau", d: 360, i: 75, c: "#00cccc" },
+      { n: "Come-down", d: 240, i: 25, c: "#00aaaa" },
+      { n: "Aftereffects", d: 1440, i: 12, c: "#008888" },
+    ],
+    brainMap: [
+      [{ r: "VTA", i: 0.70, nt: "da" }, { r: "NAc", i: 0.65, nt: "da" }, { r: "LC", i: 0.55, nt: "ne" }],
+      [{ r: "VTA", i: 1.0, nt: "da" }, { r: "NAc", i: 1.0, nt: "da" }, { r: "LC", i: 0.95, nt: "ne" }, { r: "PFC", i: 0.90, nt: "da" }, { r: "Striatum", i: 0.98, nt: "da" }, { r: "Amy", i: 0.75, nt: "da" }],
+      [{ r: "VTA", i: 0.85, nt: "da" }, { r: "NAc", i: 0.88, nt: "da" }, { r: "LC", i: 0.82, nt: "ne" }, { r: "PFC", i: 0.78, nt: "da" }, { r: "Cortex", i: 0.70, nt: "ne" }],
+      [{ r: "VTA", i: 0.25, nt: "da" }, { r: "NAc", i: 0.15, nt: "da" }, { r: "Amy", i: 0.65, nt: "ne" }, { r: "LC", i: 0.70, nt: "ne" }],
+    ],
+    receptor: `Metamfetamina to jeden z najpotężniejszych znanych stymulantów. Dzięki grupie N-metylowej jest znacznie bardziej <b>lipofilna</b> niż amfetamina, co pozwala na błyskawiczne i masowe przenikanie do mózgu.\n\n<b>TAAR1 Agonizm:</b> Metamfetamina wiąże się z receptorem TAAR1 wewnątrz neuronu, co uruchamia kaskadę fosforylacji transporterów (DAT, NET, SERT). Powoduje to nie tylko blokadę reuptake, ale <b>aktywne wypompowywanie</b> monoamin z cytoplazmy do szczeliny synaptycznej.\n\n<b>VMAT2:</b> Podobnie jak amfetamina, rozbija pęcherzyki synaptyczne, ale robi to z większą efektywnością, zalewając neuron dopaminą, która następnie jest wyrzucana przez odwrócony DAT.\n\n<b>Neurotoksyczność:</b> METH jest bezpośrednio neurotoksyczna dla zakończeń dopaminergicznych i serotoninergicznych. Mechanizm obejmuje stres oksydacyjny, dysfunkcję mitochondriów i aktywację mikrogleju.`,
+    tolerance: `<b>Trwałe zmiany:</b> Chroniczne używanie prowadzi do drastycznego spadku gęstości transporterów DAT, co jest widoczne w badaniach PET nawet po latach abstynencji. Skutkuje to trwałym deficytem motywacji i anhedonią.\n\n<b>Binge-Cycle:</b> Ekstremalnie długi czas działania i potężny 'rush' sprzyjają wielodniowym sesjom (binges), które kończą się głębokim wyczerpaniem neurochemicznym i fizycznym.\n\n<b>Psychoza:</b> Ze względu na siłę działania na układ mezolimbiczny, METH wywołuje psychozę znacznie szybciej i częściej niż inne stymulanty.`,
+    compare: [
+      { t: "vs Amfetamina", v: "METH jest silniejsza, bardziej lipofilna, dłuższa i wielokrotnie bardziej neurotoksyczna. METH ma silniejszy komponent serotoninowy (SERT), co daje bardziej 'euforia-focused' profil." },
+      { t: "vs Kokaina", v: "Kokaina blokuje reuptake, METH wymusza wyrzut (releasing agent). METH działa godzinami, kokaina minutami. METH jest znacznie tańsza w produkcji i bardziej wyniszczająca długofalowo." },
+      { t: "Neurodegradacja", v: "METH powoduje realne uszkodzenia fizyczne mózgu (ubytki substancji szarej), czego nie obserwuje się w takim stopniu przy czystej amfetaminie w dawkach terapeutycznych." },
+    ]
+  },
+
+  kratom: {
+    name_en: "Kratom", fullName_en: "Kratom (Mitragyna speciosa)", class_en: "Atypical Opioid",
+    name: "Kratom", fullName: "Kratom (Mitragyna speciosa)", class: "Liście drzewa / Opioid", category: "opioid",
+    mechanism: "Częściowy agonista μ-OR + antagonista receptorów postsynaptycznych · profil zależny od dawki",
+    targets: ["μ-OR","δ-OR","κ-OR","α2-adrenergiczne","5-HT2C"],
+    color: "#2ecc71",
+    nt: { opioid: 60, da: 35, ne: 30 },
+    phases: [
+      { n: "Onset", d: 20, i: 15, c: "#48e68b" },
+      { n: "Come-up", d: 30, i: 55, c: "#2ecc71" },
+      { n: "Peak", d: 120, i: 85, c: "#27ae60" },
+      { n: "Plateau", d: 120, i: 60, c: "#1e8449" },
+      { n: "Come-down", d:90, i: 20, c: "#145a32" },
+    ],
+    brainMap: [
+      [{ r: "Thal", i: 0.35, nt: "opioid" }, { r: "NAc", i: 0.30, nt: "da" }, { r: "LC", i: 0.25, nt: "ne" }],
+      [{ r: "Thal", i: 0.75, nt: "opioid" }, { r: "NAc", i: 0.62, nt: "da" }, { r: "Amy", i: 0.58, nt: "opioid" }, { r: "LC", i: 0.45, nt: "ne" }, { r: "PFC", i: 0.40, nt: "da" }],
+      [{ r: "Thal", i: 0.85, nt: "opioid" }, { r: "NAc", i: 0.72, nt: "da" }, { r: "Amy", i: 0.65, nt: "opioid" }, { r: "PFC", i: 0.55, nt: "da" }],
+      [{ r: "Thal", i: 0.40, nt: "opioid" }, { r: "NAc", i: 0.25, nt: "da" }],
+    ],
+    receptor: `Kratom zawiera ponad 40 alkaloidów, z których najważniejsze to <b>Mitragynina</b> i <b>7-hydroksymitragynina</b>. Jest to unikalny przykład naturalnego 'atypowego opioidu'.\n\n<b>G-Protein Bias:</b> Alkaloidy kratomu są <b>biased agonists</b> receptora μ-opioidowego — aktywują szlak białka G (analgezja, euforia), ale minimalnie rekrutują <b>β-arestynę-2</b>. To kluczowe, ponieważ szlak arestynowy odpowiada za większość efektów ubocznych opioidów: depresję oddechową, zaparcia i szybką tolerancję.\n\n<b>Dualizm działania:</b> Niskie dawki działają stymulująco (przez receptory α2-adrenergiczne i postsynaptyczną blokadę receptorów 5-HT2C). Wysokie dawki dominują efektem opioidowym i sedatywnym.\n\n<b>Inne targety:</b> Mitragynina wykazuje powinowactwo do receptorów dopaminowych D2 oraz serotoninowych 5-HT2A/2C, co tłumaczy jego unikalny profil 'antydepresyjny' i stabilizujący nastrój.`,
+    tolerance: `<b>Wolniejsza adaptacja:</b> Dzięki mechanizmowi biased agonism, fizyczna zależność i tolerancja narastają wolniej niż przy morfinie czy oksykodonie, ale wciąż są realnym zagrożeniem przy codziennym użyciu.\n\n<b>Withdrawal:</b> Odstawienie kratomu jest często opisywane jako połączenie lekkiego odstawienia opioidowego (bóle mięśni, katar) z odstawieniem antydepresyjnym (niepokój, obniżony nastrój).\n\n<b>Bezpieczeństwo:</b> Brak znaczącej depresji oddechowej czyni kratom wielokrotnie bezpieczniejszym od tradycyjnych opioidów, choć długofalowy wpływ na wątrobę i układ hormonalny wymaga dalszych badań.`,
+    compare: [
+      { t: "vs Kodeina", v: "Kratom jest bezpieczniejszy (brak depresji oddechowej), ma komponent stymulujący i szerszy profil receptorowy. Kodeina to prolek morfiny, kratom to unikalna farmakologia mitragyniny." },
+      { t: "vs Tramadol", v: "Kratom nie niesie ze sobą ryzyka drgawek związanego z tramadolem i nie wpływa tak silnie na SERT. Oba są 'słabymi' opioidami, ale kratom jest naturalny i ma 'biased' profil." },
+      { t: "Kolory żyłek", v: "Biały (White): więcej mitragyniny = stymulacja. Czerwony (Red): więcej 7-OH-mitragyniny = sedacja/analgezja. Zielony (Green): balans obu." },
+    ]
+  },
+
+  zolpidem: {
+    name_en: "Zolpidem", fullName_en: "Zolpidem (Stillnox)", class_en: "Nonbenzodiazepine Hypnotic (Z-drug)",
+    name: "Zolpidem", fullName: "Zolpidem (Stillnox)", class: "Imidazopirydyna / Nasenny", category: "gabaergic",
+    mechanism: "Selektywny agonista podjednostki α1 receptora GABA-A",
+    targets: ["GABA-A (α1 selective)"],
+    color: "#7b68ee",
+    nt: { gaba: 85, da: 10 },
+    phases: [
+      { n: "Onset", d: 15, i: 30, c: "#9370db" },
+      { n: "Peak", d: 45, i: 90, c: "#7b68ee" },
+      { n: "Plateau", d: 60, i: 60, c: "#6a5acd" },
+      { n: "Come-down", d: 120, i: 20, c: "#483d8b" },
+    ],
+    brainMap: [
+      [{ r: "Cortex", i: 0.45, nt: "gaba" }, { r: "Thal", i: 0.40, nt: "gaba" }],
+      [{ r: "Cortex", i: 0.95, nt: "gaba" }, { r: "Thal", i: 0.88, nt: "gaba" }, { r: "Amy", i: 0.55, nt: "gaba" }, { r: "Hipp", i: 0.50, nt: "gaba" }, { r: "Striatum", i: 0.40, nt: "gaba" }],
+      [{ r: "Cortex", i: 0.50, nt: "gaba" }, { r: "Thal", i: 0.45, nt: "gaba" }],
+    ],
+    receptor: `Zolpidem to 'Z-drug' — niebenzodwuazepinowy lek nasenny o wysokiej selektywności. W przeciwieństwie do benzodwuazepin, wiąże się niemal wyłącznie z <b>podjednostką α1</b> receptora GABA-A.\n\n<b>Selektywność α1:</b> Podjednostka α1 odpowiada głównie za efekty sedatywne, nasenne i amnestyczne. Brak znaczącej aktywności na podjednostki α2/α3 sprawia, że zolpidem jest słabym anksjolitykiem i lekiem przeciwdrgawkowym, ale potężnym induktorem snu.\n\n<b>Hypnagogia:</b> Dzięki selektywnej sedacji kory przy zachowaniu pewnej aktywności w innych obszarach, zolpidem często wywołuje stany hipnagogiczne, halucynacje i lunatykowanie (sleep-walking), jeśli użytkownik nie położy się spać natychmiast po zażyciu.\n\n<b>Farmakokinetyka:</b> Bardzo szybki Tmax (~0.5-1h) i krótki czas półtrwania (~2.5h). Zaprojektowany, by ułatwiać zasypianie bez powodowania 'kaca' następnego dnia.`,
+    tolerance: `<b>Tolerancja:</b> Narasta wolniej niż przy BZD, ale przy regularnym użyciu (szczególnie w dawkach rekreacyjnych) dochodzi do desensytyzacji receptorów α1.\n\n<b>Zależność:</b> Silna zależność psychiczna u osób podatnych. Charakterystyczny przymus brania kolejnych dawek w stanie 'zolpidemowego oszołomienia' (kompulsywne redawkowanie).\n\n<b>Bezpieczeństwo:</b> Mniejszy wpływ na architekturę snu (REM) niż benzodiazepiny. Główne ryzyko to urazy podczas lunatykowania i niepamięć następcza.`,
+    compare: [
+      { t: "vs Diazepam", v: "Zolpidem jest selektywny (tylko α1 = sen), diazepam nieselektywny (lęk, mięśnie, sen, drgawki). Zolpidem działa wielokrotnie krócej." },
+      { t: "vs Alprazolam", v: "Alprazolam to król anksjolizy, Zolpidem to król sedacji. Oba mają wysoki potencjał uzależniający, ale o różnym charakterze (lęk vs sen)." },
+      { t: "Paradoks", v: "U niektórych pacjentów w stanach wegetatywnych lub po urazach mózgu, zolpidem paradoksalnie 'wybudza' i przywraca funkcje poznawcze — mechanizm ten jest przedmiotem intensywnych badań." },
+    ]
+  },
+
+  thc: {
+    name_en: "THC", fullName_en: "Delta-9-Tetrahydrocannabinol", class_en: "Cannabinoid",
+    name: "THC", fullName: "Delta-9-Tetrahydrokannabinol (Marihuana)", class: "Kannabinoid", category: "cannabinoid",
+    mechanism: "Częściowy agonista receptorów kannabinoidowych CB1 i CB2",
+    targets: ["CB1","CB2"],
+    color: "#2ecc71",
+    nt: { cb1: 95, da: 40, ht: 15 },
+    phases: [
+      { n: "Onset", d: 10, i: 18, c: "#58d68d" },
+      { n: "Come-up", d: 20, i: 65, c: "#2ecc71" },
+      { n: "Peak", d: 60, i: 92, c: "#28b463" },
+      { n: "Plateau", d: 90, i: 70, c: "#239b56" },
+      { n: "Come-down", d: 60, i: 28, c: "#1d8348" },
+      { n: "Aftereffects", d: 360, i: 12, c: "#186a3e" },
+    ],
+    brainMap: [
+      [{ r: "Hipp", i: 0.35, nt: "cb1" }, { r: "NAc", i: 0.30, nt: "da" }, { r: "Cortex", i: 0.25, nt: "cb1" }],
+      [{ r: "Hipp", i: 0.72, nt: "cb1" }, { r: "NAc", i: 0.65, nt: "da" }, { r: "Cortex", i: 0.68, nt: "cb1" }, { r: "Amy", i: 0.55, nt: "cb1" }, { r: "Cereb", i: 0.50, nt: "cb1" }],
+      [{ r: "Hipp", i: 0.95, nt: "cb1" }, { r: "NAc", i: 0.88, nt: "da" }, { r: "Cortex", i: 0.92, nt: "cb1" }, { r: "Amy", i: 0.82, nt: "cb1" }, { r: "Cereb", i: 0.85, nt: "cb1" }, { r: "PFC", i: 0.78, nt: "cb1" }, { r: "Thal", i: 0.65, nt: "cb1" }, { r: "VTA", i: 0.70, nt: "da" }],
+      [{ r: "Hipp", i: 0.75, nt: "cb1" }, { r: "NAc", i: 0.60, nt: "da" }, { r: "Cortex", i: 0.62, nt: "cb1" }, { r: "PFC", i: 0.58, nt: "cb1" }],
+      [{ r: "Hipp", i: 0.38, nt: "cb1" }, { r: "NAc", i: 0.22, nt: "da" }, { r: "Cereb", i: 0.30, nt: "cb1" }],
+      [{ r: "Hipp", i: 0.15, nt: "cb1" }, { r: "Cortex", i: 0.12, nt: "cb1" }],
+    ],
+    receptor: `THC naśladuje działanie endokannabinoidów (np. anandamidu), wiążąc się bezpośrednio z <b>receptorami CB1 i CB2</b>.\n\n<b>CB1 w OUN:</b> Receptory te są jednymi z najliczniej występujących w mózgu. Ich aktywacja w <b>Hipokampie</b> zaburza pamięć krótkotrwałą, w <b>Prążkowiu (NAc)</b> moduluje układ nagrody, a w <b>Móżdżku (Cereb)</b> wpływa na koordynację ruchową.\n\n<b>Retrograde Signaling:</b> System kannabinoidowy działa wstecznie — CB1 na zakończeniach presynaptycznych hamują uwalnianie innych neuroprzekaźników (GABA, glutaminianu). THC 'zamraża' ten proces, co prowadzi do charakterystycznego spowolnienia myślowego i wzmocnienia bodźców sensorycznych.\n\n<b>Dopamina:</b> Wzrost DA w NAc wynika z hamowania interneuronów GABA w VTA, co odblokowuje neurony dopaminowe. Jest to efekt subtelniejszy niż przy stymulantach, ale kluczowy dla euforii i relaksu.`,
+    tolerance: `<b>Down-regulacja CB1:</b> Regularne używanie prowadzi do szybkiego zmniejszenia gęstości receptorów CB1 w korze i hipokampie. Tolerancja narasta systematycznie, ale jest odwracalna po ok. 2-4 tygodniach abstynencji.\n\n<b>Zależność:</b> Chociaż tradycyjnie uważana za niską, u regularnych użytkowników może wystąpić Cannabis Use Disorder (CUD). Odstawienie objawia się problemami ze snem, brakiem apetytu i drażliwością.\n\n<b>Zmienność:</b> THC jest wysoce lipofilne i odkłada się w tkance tłuszczowej, co wydłuża czas jego wykrywalności i może wpływać na subtelne efekty 'rebound' utrzymujące się przez kilka dni po użyciu.`,
+    compare: [
+      { t: "vs CBD", v: "CBD nie jest psychoaktywne w sensie odurzenia. Działa jako negatywny modulator allosteryczny CB1, co oznacza, że może osłabiać lęk i paranoję wywołaną przez THC." },
+      { t: "vs Alkohol", v: "THC ma znacznie szerszy indeks bezpieczeństwa (brak dawki śmiertelnej przez depresję oddechową). Alkohol jest bardziej toksyczny narządowo i silniej uzależnia fizycznie." },
+      { t: "Lęk i Paranoja", v: "Aktywacja CB1 w ciele migdałowatym (Amy) u wrażliwych osób może prowadzić do silnych stanów lękowych. Jest to najczęstszy negatywny efekt uboczny THC." },
+      { t: "Medycyna", v: "Stosowane w leczeniu bólu neuropatycznego, spastyczności w SM, nudności po chemioterapii oraz w opornej na leczenie padaczce. Sativex i Epidiolex to zatwierdzone leki na bazie kannabinoidów." },
+    ]
+  },
+
 };
+
 
 export const SUBSTANCES: Record<string, Substance> = Object.fromEntries(
   Object.entries(DATA).map(([id, substance]) => [id, { ...substance, id } as Substance])
