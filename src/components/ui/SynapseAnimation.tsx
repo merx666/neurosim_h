@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useCallback } from 'react';
+import React, { useEffect, useRef } from 'react';
 import type { Substance } from '../../types/substance';
 import { useLanguage } from '../../context/LanguageContext';
 
@@ -31,6 +31,8 @@ const NT_COLORS: Record<string, string> = {
   GABA: '#60a5fa',  // GABA
   'μ-OR': '#a78bfa', // Opioid
   CB1: '#50e890',   // Cannabinoid
+  H1: '#fb7185',    // Histamine
+  M1: '#38bdf8',    // Acetylcholine
 };
 
 const NT_LABELS: Record<string, { pl: string, en: string }> = {
@@ -41,6 +43,8 @@ const NT_LABELS: Record<string, { pl: string, en: string }> = {
   GABA: { pl: 'GABA', en: 'GABA' },
   'μ-OR': { pl: 'Opioidy', en: 'Opioids' },
   CB1: { pl: 'Kannabinoidy', en: 'Cannabinoids' },
+  H1: { pl: 'Histamina', en: 'Histamine' },
+  M1: { pl: 'Acetylocholina', en: 'Acetylcholine' },
 };
 
 function getNTColor(target: string): string {
@@ -52,6 +56,8 @@ function getNTColor(target: string): string {
   if (t.includes('GABA')) return NT_COLORS.GABA;
   if (t.includes('μ-OR') || t.includes('MOR')) return NT_COLORS['μ-OR'];
   if (t.includes('CB1')) return NT_COLORS.CB1;
+  if (t.includes('H1')) return NT_COLORS.H1;
+  if (t.includes('M1') || t.includes('ACH')) return NT_COLORS.M1;
   return '#94a3b8';
 }
 

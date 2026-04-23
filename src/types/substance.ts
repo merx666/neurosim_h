@@ -1,4 +1,4 @@
-export type NTLevel = 'da' | 'ht' | 'ne' | 'glut' | 'gaba' | 'opioid' | 'cb1';
+export type NTLevel = 'da' | 'ht' | 'ne' | 'glut' | 'gaba' | 'opioid' | 'cb1' | 'ac' | 'hi';
 
 export interface Phase {
   n: string; // name
@@ -26,7 +26,7 @@ export interface Substance {
   fullName_en?: string;
   class: string;
   class_en?: string;
-  category: 'cathinone' | 'entactogen' | 'stimulant' | 'opioid' | 'dissociative' | 'psychedelic' | 'cannabinoid' | 'gabaergic';
+  category: 'cathinone' | 'entactogen' | 'stimulant' | 'opioid' | 'dissociative' | 'psychedelic' | 'cannabinoid' | 'gabaergic' | 'sedative' | 'deliriant' | 'depressant';
   mechanism: string;
   targets: string[];
   color: string;

@@ -87,7 +87,7 @@ function SubstanceView() {
             </p>
           </header>
           
-          <SubstanceGrid substances={substances} onSelect={handleSelect} />
+          <SubstanceGrid onSelect={handleSelect} />
         </div>
       ) : (
         <div className="detail-screen animate-fade-in">
