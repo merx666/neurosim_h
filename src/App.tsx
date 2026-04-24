@@ -24,7 +24,7 @@ function NavBar() {
 }
 
 function SubstanceView() {
-  const [substances, setSubstances] = useState<any[]>([]);
+  const [, setSubstances] = useState<any[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [selectedSubstance, setSelectedSubstance] = useState<any | null>(null);
   const [activePhaseInt, setActivePhaseInt] = useState<number | null>(0);
