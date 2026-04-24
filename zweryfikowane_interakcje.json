@@ -1,0 +1,4502 @@
+[
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "cocaine",
+    "nameB": "Kokaina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "codeine",
+    "nameB": "Kodeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "ketamine",
+    "nameB": "Ketamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "psilocybin",
+    "nameB": "Psylocybina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "lsd",
+    "nameB": "LSD",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "cbd",
+    "nameB": "CBD",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "dmt",
+    "nameB": "DMT",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "diazepam",
+    "nameB": "Diazepam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "dxm",
+    "nameB": "DXM",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "ghb",
+    "nameB": "GHB",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "2cb",
+    "nameB": "2C-B",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "caffeine",
+    "nameB": "Kofeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "nitrous",
+    "nameB": "Podtlenek Azotu",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "alprazolam",
+    "nameB": "Alprazolam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "kratom",
+    "nameB": "Kratom",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "thc",
+    "nameB": "THC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mephedrone",
+    "nameA": "Mefedron",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "mdma",
+    "nameB": "MDMA",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "cocaine",
+    "nameB": "Kokaina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "codeine",
+    "nameB": "Kodeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "ketamine",
+    "nameB": "Ketamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "psilocybin",
+    "nameB": "Psylocybina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "lsd",
+    "nameB": "LSD",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "cbd",
+    "nameB": "CBD",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "dmt",
+    "nameB": "DMT",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "diazepam",
+    "nameB": "Diazepam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "dxm",
+    "nameB": "DXM",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "ghb",
+    "nameB": "GHB",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "2cb",
+    "nameB": "2C-B",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "caffeine",
+    "nameB": "Kofeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "alcohol",
+    "nameB": "Alkohol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "nitrous",
+    "nameB": "Podtlenek Azotu",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "alprazolam",
+    "nameB": "Alprazolam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "methamphetamine",
+    "nameB": "Metamfetamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "kratom",
+    "nameB": "Kratom",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "thc",
+    "nameB": "THC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "3cmc",
+    "nameA": "3-CMC",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "mdma",
+    "nameB": "MDMA",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "codeine",
+    "nameB": "Kodeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "ketamine",
+    "nameB": "Ketamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "psilocybin",
+    "nameB": "Psylocybina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "lsd",
+    "nameB": "LSD",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "cbd",
+    "nameB": "CBD",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "dmt",
+    "nameB": "DMT",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "diazepam",
+    "nameB": "Diazepam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "dxm",
+    "nameB": "DXM",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "ghb",
+    "nameB": "GHB",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "2cb",
+    "nameB": "2C-B",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "caffeine",
+    "nameB": "Kofeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "alcohol",
+    "nameB": "Alkohol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "nitrous",
+    "nameB": "Podtlenek Azotu",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "methamphetamine",
+    "nameB": "Metamfetamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "kratom",
+    "nameB": "Kratom",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "thc",
+    "nameB": "THC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "alpvp",
+    "nameA": "α-PVP",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "codeine",
+    "nameB": "Kodeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "cbd",
+    "nameB": "CBD",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "dmt",
+    "nameB": "DMT",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "diazepam",
+    "nameB": "Diazepam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "ghb",
+    "nameB": "GHB",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "alprazolam",
+    "nameB": "Alprazolam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "methamphetamine",
+    "nameB": "Metamfetamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "mdma",
+    "nameA": "MDMA",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "psilocybin",
+    "nameB": "Psylocybina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "cbd",
+    "nameB": "CBD",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "dmt",
+    "nameB": "DMT",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "diazepam",
+    "nameB": "Diazepam",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Potential interactions between Cesamet 2 mg, and diazepam 5 mg; sodium secobarbital 100 mg; alcohol 45 mL (absolute laboratory alcohol); or codeine 65 mg, were evaluated in 15 subjec..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "2cb",
+    "nameB": "2C-B",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "nitrous",
+    "nameB": "Podtlenek Azotu",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "alprazolam",
+    "nameB": "Alprazolam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "kratom",
+    "nameB": "Kratom",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS CNS depressants: Enhanced CNS-depressant effects with combination use. Use with alcohol causes additive psychomotor impairment. ( 7.1 ) Imipramine: Decreased alertness observed wit..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "thc",
+    "nameB": "THC",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Potential interactions between Cesamet 2 mg, and diazepam 5 mg; sodium secobarbital 100 mg; alcohol 45 mL (absolute laboratory alcohol); or codeine 65 mg, were evaluated in 15 subjec..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Drugs that Reduce Catecholamine Uptake or Deplete Stores: Discontinue these drugs prior to and following AZEDRA administration. ( 2.3 ), ( 7.1 ) 7.1 Drugs that Reduce Catecholamine..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Ioflupane I 123 binds to the dopamine transporter [ see Clinical Pharmacology ( 12.1 ) ]. Drugs that bind to the dopamine transporter with high affinity may interfere with the imag..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions In studies involving patients with AIDS and/or cancer, Dronabinol Capsules has been co-administered with a variety of medications (e.g., cytotoxic agents, anti-infective agents, seda..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: DRUG INTERACTIONS Inhibitors of CYP3A4 and CYP2D6 The concomitant use of Oxycodone and Acetaminophen Tablets and CYP3A4 inhibitors, such as macrolide antibiotics (e.g., erythromycin), azole-antifungal..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: DRUG INTERACTIONS Inhibitors of CYP3A4 and CYP2D6 The concomitant use of Oxycodone and Acetaminophen Tablets and CYP3A4 inhibitors, such as macrolide antibiotics (e.g., erythromycin), azole-antifungal..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Drugs that Reduce Catecholamine Uptake or Deplete Stores: Discontinue these drugs prior to and following AZEDRA administration. ( 2.3 ), ( 7.1 ) 7.1 Drugs that Reduce Catecholamine..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Ioflupane I 123 binds to the dopamine transporter [ see Clinical Pharmacology ( 12.1 ) ]. Drugs that bind to the dopamine transporter with high affinity may interfere with the imag..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Drugs that Reduce Catecholamine Uptake or Deplete Stores: Discontinue these drugs prior to and following AZEDRA administration. ( 2.3 ), ( 7.1 ) 7.1 Drugs that Reduce Catecholamine..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Drugs that Reduce Catecholamine Uptake or Deplete Stores: Discontinue these drugs prior to and following AZEDRA administration. ( 2.3 ), ( 7.1 ) 7.1 Drugs that Reduce Catecholamine..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions In studies involving patients with AIDS and/or cancer, Dronabinol Capsules has been co-administered with a variety of medications (e.g., cytotoxic agents, anti-infective agents, seda..."
+  },
+  {
+    "substanceA": "cocaine",
+    "nameA": "Kokaina",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "cbd",
+    "nameB": "CBD",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "dmt",
+    "nameB": "DMT",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "nitrous",
+    "nameB": "Podtlenek Azotu",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "alprazolam",
+    "nameB": "Alprazolam",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions As with all drugs, the potential for interaction by a variety of mechanisms is a possibility. Alcohol A single dose of ethanol (0.5 g/kg) had no effect on the pharmacokinetics of ven..."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "kratom",
+    "nameB": "Kratom",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Concurrent use of Ismelin and rauwolfia derivatives may cause excessive postural hypotension, bradycardia, and mental depression. Both digitalis and Ismelin slow the heart rate. Thia..."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS No specific drug interaction studies have been conducted with Promethazine and Phenylephrine HCl and Codeine Phosphate Oral Solution. Serotonergic Drugs : Concomitant use may resul..."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Ioflupane I 123 binds to the dopamine transporter [ see Clinical Pharmacology ( 12.1 ) ]. Drugs that bind to the dopamine transporter with high affinity may interfere with the imag..."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS No specific drug interaction studies have been conducted with promethazine HCl, phenylephrine HCl and codeine phosphate oral solution. • Serotonergic Drugs: Concomitant use may res..."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions MAO Inhibitors Concomitant use of MAOIs and CNS stimulants can cause hypertensive crisis. Potential outcomes include death, stroke, myocardial infarction, aortic dissection, ophthalm..."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions As with all drugs, the potential for interaction by a variety of mechanisms is a possibility. Alcohol A single dose of ethanol (0.5 g/kg) had no effect on the pharmacokinetics of ven..."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions MAO Inhibitors Concomitant use of MAOIs and CNS stimulants can cause hypertensive crisis. Potential outcomes include death, stroke, myocardial infarction, aortic dissection, ophthalm..."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS No specific drug interaction studies have been conducted with promethazine HCl, phenylephrine HCl and codeine phosphate oral solution. • Serotonergic Drugs: Concomitant use may res..."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions MAO Inhibitors Concomitant use of MAOIs and CNS stimulants can cause hypertensive crisis. Potential outcomes include death, stroke, myocardial infarction, aortic dissection, ophthalm..."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions As with all drugs, the potential for interaction by a variety of mechanisms is a possibility. Alcohol A single dose of ethanol (0.5 g/kg) had no effect on the pharmacokinetics of ven..."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Concurrent use of Ismelin and rauwolfia derivatives may cause excessive postural hypotension, bradycardia, and mental depression. Both digitalis and Ismelin slow the heart rate. Thia..."
+  },
+  {
+    "substanceA": "amphetamine",
+    "nameA": "Amfetamina",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "ketamine",
+    "nameB": "Ketamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "psilocybin",
+    "nameB": "Psylocybina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "cbd",
+    "nameB": "CBD",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "dmt",
+    "nameB": "DMT",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "dxm",
+    "nameB": "DXM",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "2cb",
+    "nameB": "2C-B",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "caffeine",
+    "nameB": "Kofeina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Table 1 includes clinically significant drug interactions with Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules. Table 1: Clinically Significant Drug Interaction..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "nitrous",
+    "nameB": "Podtlenek Azotu",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "alprazolam",
+    "nameB": "Alprazolam",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS • Use with Opioids: Increase the risk of respiratory depression. ( 7.1 ) • Use with Other CNS Depressants: Produces additive CNS depressant effects. ( 7.1 ) • Use with Digoxin: Inc..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "methamphetamine",
+    "nameB": "Metamfetamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: DRUG INTERACTIONS This drug should not be used with the following medications because very serious interactions may occur: sodium oxybate. Avoid MAO inhibitors (isocarboxazid, linezolid, methylene blu..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "thc",
+    "nameB": "THC",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Potential interactions between Cesamet 2 mg, and diazepam 5 mg; sodium secobarbital 100 mg; alcohol 45 mL (absolute laboratory alcohol); or codeine 65 mg, were evaluated in 15 subjec..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Table 1 includes clinically significant drug interactions with Codeine Sulfate Tablets. Table 1: Clinically Significant Drug Interactions with Codeine Sulfate Tablets Inhibitors of..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Table 1 includes clinically significant drug interactions with Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules. Table 1: Clinically Significant Drug Interaction..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Potential interactions between Cesamet 2 mg, and diazepam 5 mg; sodium secobarbital 100 mg; alcohol 45 mL (absolute laboratory alcohol); or codeine 65 mg, were evaluated in 15 subjec..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Table 1 includes clinically significant drug interactions with Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules. Table 1: Clinically Significant Drug Interaction..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS • Use with Opioids: Increase the risk of respiratory depression. ( 7.1 ) • Use with Other CNS Depressants: Produces additive CNS depressant effects. ( 7.1 ) • Use with Digoxin: Inc..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Table 1 includes clinically significant drug interactions with Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules. Table 1: Clinically Significant Drug Interaction..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Table 1 includes clinically significant drug interactions with Butalbital, Acetaminophen, Caffeine, and Codeine Phosphate Capsules. Table 1: Clinically Significant Drug Interaction..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: DRUG INTERACTIONS This drug should not be used with the following medications because very serious interactions may occur: sodium oxybate. Avoid MAO inhibitors (isocarboxazid, linezolid, methylene blu..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Potential interactions between Cesamet 2 mg, and diazepam 5 mg; sodium secobarbital 100 mg; alcohol 45 mL (absolute laboratory alcohol); or codeine 65 mg, were evaluated in 15 subjec..."
+  },
+  {
+    "substanceA": "codeine",
+    "nameA": "Kodeina",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "cbd",
+    "nameB": "CBD",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "dmt",
+    "nameB": "DMT",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "diazepam",
+    "nameB": "Diazepam",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Many drugs affect thyroid hormone pharmacokinetics and metabolism (e.g., absorption, synthesis, secretion, catabolism, protein binding, and target tissue response) and may alter the ..."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "dxm",
+    "nameB": "DXM",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "caffeine",
+    "nameB": "Kofeina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions: Theophylline interacts with a wide variety of drugs. The interaction may be pharmacodynamic, i.e., alterations in the therapeutic response to theophylline or another drug or occurre..."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS No drug-drug interaction studies have been conducted with NAMENDA XR, specifically. Use with other NMDA antagonists (amantadine, ketamine, and dextromethorphan) has not been system..."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "alprazolam",
+    "nameB": "Alprazolam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "methamphetamine",
+    "nameB": "Metamfetamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "kratom",
+    "nameB": "Kratom",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Effect of Concomitant Use of Benzodiazepines and Opioids The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at differe..."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Effect of Concomitant Use of Benzodiazepines and Opioids The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at differe..."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Effect of Concomitant Use of Benzodiazepines and Opioids The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at differe..."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Effect of Concomitant Use of Benzodiazepines and Opioids The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at differe..."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Many drugs affect thyroid hormone pharmacokinetics and metabolism (e.g., absorption, synthesis, secretion, catabolism, protein binding, and target tissue response) and may alter the ..."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS 7. 1 Drugs that Make the Urine Alkaline The clearance of memantine was reduced by about 80% under alkaline urine conditions at pH 8. Therefore, alterations of urine pH towards the ..."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS No drug-drug interaction studies have been conducted with NAMENDA XR, specifically. Use with other NMDA antagonists (amantadine, ketamine, and dextromethorphan) has not been system..."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Many drugs affect thyroid hormone pharmacokinetics and metabolism (e.g., absorption, synthesis, secretion, catabolism, protein binding, and target tissue response) and may alter the ..."
+  },
+  {
+    "substanceA": "ketamine",
+    "nameA": "Ketamina",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "diazepam",
+    "nameB": "Diazepam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "ghb",
+    "nameB": "GHB",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "caffeine",
+    "nameB": "Kofeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "alprazolam",
+    "nameB": "Alprazolam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "methamphetamine",
+    "nameB": "Metamfetamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "kratom",
+    "nameB": "Kratom",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "psilocybin",
+    "nameA": "Psylocybina",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "caffeine",
+    "nameB": "Kofeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "kratom",
+    "nameB": "Kratom",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "lsd",
+    "nameA": "LSD",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "dmt",
+    "nameB": "DMT",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "diazepam",
+    "nameB": "Diazepam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "dxm",
+    "nameB": "DXM",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "ghb",
+    "nameB": "GHB",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "2cb",
+    "nameB": "2C-B",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "caffeine",
+    "nameB": "Kofeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "nitrous",
+    "nameB": "Podtlenek Azotu",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "alprazolam",
+    "nameB": "Alprazolam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "methamphetamine",
+    "nameB": "Metamfetamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "kratom",
+    "nameB": "Kratom",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "cbd",
+    "nameA": "CBD",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "diazepam",
+    "nameB": "Diazepam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "dxm",
+    "nameB": "DXM",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "ghb",
+    "nameB": "GHB",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "caffeine",
+    "nameB": "Kofeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "alcohol",
+    "nameB": "Alkohol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "nitrous",
+    "nameB": "Podtlenek Azotu",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "alprazolam",
+    "nameB": "Alprazolam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "methamphetamine",
+    "nameB": "Metamfetamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "kratom",
+    "nameB": "Kratom",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dmt",
+    "nameA": "DMT",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "dxm",
+    "nameB": "DXM",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "2cb",
+    "nameB": "2C-B",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "caffeine",
+    "nameB": "Kofeina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions As with all drugs, the potential for interaction by a variety of mechanisms is a possibility. Alcohol A single dose of ethanol (0.5 g/kg) had no effect on the pharmacokinetics of ven..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "nitrous",
+    "nameB": "Podtlenek Azotu",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Table 2 includes clinically significant drug interactions with Alfentanil HCl Injection. Table 2: Clinically Significant Drug Interactions with Alfentanil HCl Injection Inhibitors ..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "methamphetamine",
+    "nameB": "Metamfetamina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS When co-administering ritonavir with other protease inhibitors (atazanavir, darunavir, fosamprenavir, saquinavir, and tipranavir), see the full prescribing information for that pro..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "thc",
+    "nameB": "THC",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7. DRUG INTERACTIONS Tables 3 and 4 include drugs with clinically important drug interactions and interaction with diagnostics when administered concomitantly with Omeprazole delayed-release capsules ..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug-Drug Interactions The existence of multiple pathways for armodafinil metabolism, as well as the fact that a non-CYP-related pathway is the most rapid in metabolizing armodafinil, suggest that the..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Table 2 includes clinically significant drug interactions with Fentanyl Citrate Injection. Table 2: Clinically Significant Drug Interactions with Fentanyl Citrate Injection Inhibit..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Effects of Modafinil on CYP3A4/5 Substrates The clearance of drugs that are substrates for CYP3A4/5 (e.g., steroidal contraceptives, cyclosporine, midazolam, and triazolam) may be ..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Pharmacodynamic Interactions Healthy subjects who received rifampin 600 mg once daily concomitantly with saquinavir 1000 mg/ritonavir 100 mg twice daily (ritonavir-boosted saquinavir..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions: Effect of Concomitant Use of Benzodiazepines and Opioids The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at differ..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Pharmacodynamic Interactions Healthy subjects who received rifampin 600 mg once daily concomitantly with saquinavir 1000 mg/ritonavir 100 mg twice daily (ritonavir-boosted saquinavir..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Table 5 includes clinically important drug interactions with REMERON/REMERONSolTab [see Clinical Pharmacology (12.3) ]. Table 5: Clinically Important Drug Interactions with REMERON..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions As with all drugs, the potential for interaction by a variety of mechanisms is a possibility. Alcohol A single dose of ethanol (0.5 g/kg) had no effect on the pharmacokinetics of ven..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Clinically meaningful drug interactions have occurred with concomitant medications and include, but are not limited to the following: Agents Highly Bound to Plasma Protein: Carbamaze..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Many drugs affect thyroid hormone pharmacokinetics and metabolism (e.g., absorption, synthesis, secretion, catabolism, protein binding, and target tissue response) and may alter the ..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Table 5 includes clinically important drug interactions with REMERON/REMERONSolTab [see Clinical Pharmacology (12.3) ]. Table 5: Clinically Important Drug Interactions with REMERON..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions Clinically meaningful drug interactions have occurred with concomitant medications and include, but are not limited to the following: Agents Highly Bound to Plasma Protein: Carbamaze..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Table 5 includes clinically important drug interactions with REMERON/REMERONSolTab [see Clinical Pharmacology (12.3) ]. Table 5: Clinically Important Drug Interactions with REMERON..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: Drug Interactions As with all drugs, the potential for interaction by a variety of mechanisms is a possibility. Alcohol A single dose of ethanol (0.5 g/kg) had no effect on the pharmacokinetics of ven..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Znaleziono interakcje",
+    "risk_level": "caution",
+    "description_pl": "Znaleziono wzmianki w bazie OpenFDA. Wymaga weryfikacji. Tekst źródłowy: 7 DRUG INTERACTIONS Hepatic enzyme-inducing drugs (e.g., phenytoin, carbamazepine, phenobarbital, primidone, rifampin) can increase valproate clearance, while enzyme inhibitors (e.g., felbamate) can d..."
+  },
+  {
+    "substanceA": "diazepam",
+    "nameA": "Diazepam",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "ghb",
+    "nameB": "GHB",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "2cb",
+    "nameB": "2C-B",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "caffeine",
+    "nameB": "Kofeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "nitrous",
+    "nameB": "Podtlenek Azotu",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "alprazolam",
+    "nameB": "Alprazolam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "methamphetamine",
+    "nameB": "Metamfetamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "kratom",
+    "nameB": "Kratom",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "zolpidem",
+    "nameB": "Zolpidem",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "thc",
+    "nameB": "THC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "methylphenidate",
+    "nameB": "Metylofenidat",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "pregabalin",
+    "nameB": "Pregabalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "dph",
+    "nameB": "DPH",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "muscimol",
+    "nameB": "Muskymol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "modafinil",
+    "nameB": "Modafinil",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "morphine",
+    "nameB": "Morfina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "scopolamine",
+    "nameB": "Skopolamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "oxycodone",
+    "nameB": "Oksykodon",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "fentanyl",
+    "nameB": "Fentanyl",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "pcp",
+    "nameB": "PCP",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "quetiapine",
+    "nameB": "Kwetiapina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "mescaline",
+    "nameB": "Meskalina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "heroin",
+    "nameB": "Heroina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "phenibut",
+    "nameB": "Fenibut",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "tramadol",
+    "nameB": "Tramadol",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "memantine",
+    "nameB": "Memantyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "bupropion",
+    "nameB": "Bupropion",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "selegiline",
+    "nameB": "Selegilina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "ldopa",
+    "nameB": "Lewodopa",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "yohimbine",
+    "nameB": "Johimbina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "venlafaxine",
+    "nameB": "Wenlafaksyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "amitriptyline",
+    "nameB": "Amitryptylina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "dxm",
+    "nameA": "DXM",
+    "substanceB": "3mmc",
+    "nameB": "3-MMC",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ghb",
+    "nameA": "GHB",
+    "substanceB": "2cb",
+    "nameB": "2C-B",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ghb",
+    "nameA": "GHB",
+    "substanceB": "caffeine",
+    "nameB": "Kofeina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ghb",
+    "nameA": "GHB",
+    "substanceB": "nicotine",
+    "nameB": "Nikotyna",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ghb",
+    "nameA": "GHB",
+    "substanceB": "salvia",
+    "nameB": "Salwia",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ghb",
+    "nameA": "GHB",
+    "substanceB": "nitrous",
+    "nameB": "Podtlenek Azotu",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ghb",
+    "nameA": "GHB",
+    "substanceB": "alprazolam",
+    "nameB": "Alprazolam",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ghb",
+    "nameA": "GHB",
+    "substanceB": "methamphetamine",
+    "nameB": "Metamfetamina",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  },
+  {
+    "substanceA": "ghb",
+    "nameA": "GHB",
+    "substanceB": "kratom",
+    "nameB": "Kratom",
+    "status": "Brak udokumentowanych interakcji",
+    "risk_level": "low_no_interaction",
+    "description_pl": "Brak udokumentowanych interakcji."
+  }
+]

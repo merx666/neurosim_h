@@ -392,4 +392,3 @@ ALTER TABLE ONLY public.interactions
 --
 
 \unrestrict 401vkWil5RbUJxLnnmwR1sJpMSXBjw5ILTLsv7RH1Fw0HgAESDp7ZH7400Rn8vM
-
