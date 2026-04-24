@@ -1,4 +1,4 @@
-export type NTLevel = 'da' | 'ht' | 'ne' | 'glut' | 'gaba' | 'opioid' | 'cb1' | 'ac' | 'hi';
+export type NTLevel = 'da' | 'ht' | 'ne' | 'glut' | 'gaba' | 'ga' | 'opioid' | 'mu' | 'cb1' | 'ac' | 'hi';
 
 export interface Phase {
   n: string; // name
