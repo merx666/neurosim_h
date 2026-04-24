@@ -30,7 +30,7 @@ def check_interaction_fda(drug1, drug2):
         else:
             print(f"API returned {response.status_code} for {drug1}+{drug2}")
             return None
-    except Exception as e:
+    except requests.exceptions.RequestException as e:
         print(f"Error fetching openFDA for {drug1}+{drug2}: {e}")
         return None
 
