@@ -13,7 +13,10 @@ def check_interaction_fda(drug1, drug2):
     try:
         response = requests.get(url, timeout=10)
         if response.status_code == 200:
-            data = response.json()
+            try:
+                data = response.json()
+            except json.JSONDecodeError:
+                return None
             if 'results' in data and len(data['results']) > 0:
                 result = data['results'][0]
                 interactions_text = result.get('drug_interactions', [])
