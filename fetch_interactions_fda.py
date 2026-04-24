@@ -9,7 +9,7 @@ def check_interaction_fda(drug1, drug2):
     # openFDA allows 240 requests/minute without an API key
     query = f"drug_interactions:({drug1} AND {drug2})"
     url = f"https://api.fda.gov/drug/label.json?search={query}&limit=1"
-
+    
     try:
         response = requests.get(url, timeout=10)
         if response.status_code == 200:
@@ -37,7 +37,7 @@ def check_interaction_fda(drug1, drug2):
 def main():
     input_file = 'missing_interactions.json'
     output_file = 'zweryfikowane_interakcje.json'
-
+    
     if not os.path.exists(input_file):
         print(f"File {input_file} not found.")
         sys.exit(1)
@@ -94,3 +94,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
