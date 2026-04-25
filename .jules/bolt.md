@@ -1,0 +1,3 @@
+## 2024-05-18 - Extracting derived state from static data
+**Learning:** The application heavily relies on large static objects (like `SUBSTANCES`), meaning derived data calculations (e.g., grouping, sorting) on these static datasets don't need to happen within React component render functions. Keeping them inside `render` results in unnecessary `O(N)` penalties on every re-render.
+**Action:** Always verify if data transformations depend on dynamic state or props. If they depend exclusively on imported static data, compute the result once at the module level outside the component instead of relying on `useMemo` or recalculating during renders.
