@@ -1,0 +1,3 @@
+## 2025-04-26 - Memoize static data calculation
+**Learning:** In this codebase, which relies heavily on large static datasets (`SUBSTANCES`), reducing them inside functional components (e.g., `SubstanceGrid`) recalculates derived state unnecessarily on every render. Because the data is imported as a constant, derived state should be hoisted to the module scope rather than using React state or even `useMemo`.
+**Action:** When working with large statically imported JSON/objects that dictate UI state but never mutate, compute derived structures at the file level outside of the component to completely eliminate O(N) recalculations during renders.
