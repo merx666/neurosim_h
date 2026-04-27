@@ -1,0 +1,3 @@
+## 2025-02-18 - Pre-computing static large objects in React
+**Learning:** Derived state based on large static objects (e.g. `SUBSTANCES` containing dictionary elements) should be pre-computed outside the React component. Since the source data is static, computing `grouped` via an O(N) array reduction inside `SubstanceGrid` on every render causes unnecessary recalculations and performance hits, especially since it triggers on language context changes.
+**Action:** When a React component processes static data that doesn't rely on component props/state, extract the calculation to the module scope (outside the component) to compute it once per application load rather than on every render.
