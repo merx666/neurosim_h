@@ -1,0 +1,3 @@
+## 2025-04-28 - [Static Data Grouping Optimization]
+**Learning:** In React components dealing with large, static imported data (like `SUBSTANCES`), computing derived state (like grouping by category) inside the functional component creates an O(N) operation on every single render. Since the input data is static and never changes during runtime, this is highly inefficient and scales poorly.
+**Action:** Extract the grouping logic outside of the component function. This way, it only runs once when the file is loaded (module scope), turning an O(N) render penalty into an O(1) lookup during component renders.
