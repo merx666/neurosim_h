@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { RiskBadge } from './RiskBadge';
 import { NTMixVisualization } from './NTMixVisualization';
@@ -58,14 +58,17 @@ export function MixExplorer() {
   const getName = (s: { name_pl: string; name_en?: string }) =>
     language === 'en' && s.name_en ? s.name_en : s.name_pl;
 
-  const filteredA = substances.filter(s =>
+  // Bolt: Memoized O(N) filtering of dynamic substance lists to prevent
+  // expensive recalculations on every render (e.g. when typing or switching views).
+  const filteredA = useMemo(() => substances.filter(s =>
     s.name_pl.toLowerCase().includes(searchA.toLowerCase()) ||
     (s.name_en || '').toLowerCase().includes(searchA.toLowerCase())
-  );
-  const filteredB = substances.filter(s =>
+  ), [substances, searchA]);
+
+  const filteredB = useMemo(() => substances.filter(s =>
     s.name_pl.toLowerCase().includes(searchB.toLowerCase()) ||
     (s.name_en || '').toLowerCase().includes(searchB.toLowerCase())
-  );
+  ), [substances, searchB]);
 
   return (
     <div className="mix-explorer">
