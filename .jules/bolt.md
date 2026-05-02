@@ -1,3 +1,7 @@
 ## 2025-01-08 - Extracted large static calculation outside React Component
 **Learning:** `Object.values(SUBSTANCES).reduce()` was calculating the grouped categories for hundreds of entries during every render of the `SubstanceGrid` component. In React, any computation in the body of a functional component runs on *every* render unless memoized, which for large static datasets represents a major performance bottleneck. Since the data never changes dynamically, placing the static data's derived state outside of the functional component avoids unnecessary `O(N)` calculations without even needing `useMemo`.
 **Action:** Always inspect large dictionary/array static imports that are processed inside a component body. If the derived state doesn't depend on props or state, hoist it outside the component altogether. Use `useMemo` only when the computation depends on reactive variables.
+
+## 2025-05-02 - Hoisting `.toLowerCase()` out of inner `.filter()` loops
+**Learning:** During array filtering (e.g. `substances.filter()`), calling `.toLowerCase()` on the search query parameter inside the callback creates thousands of redundant string allocations. When combined with unmemoized array filtering on every render in a React component, this causes significant GC pressure and blocking main thread work.
+**Action:** When filtering arrays against search inputs, hoist the input's `.toLowerCase()` or regex compilation outside the `.filter` callback. Wrap the operation in `useMemo` so it only re-runs when the array or the search query actually changes.
