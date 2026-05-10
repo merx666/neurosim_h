@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { RiskBadge } from './RiskBadge';
 import { NTMixVisualization } from './NTMixVisualization';
@@ -58,14 +58,23 @@ export function MixExplorer() {
   const getName = (s: { name_pl: string; name_en?: string }) =>
     language === 'en' && s.name_en ? s.name_en : s.name_pl;
 
-  const filteredA = substances.filter(s =>
-    s.name_pl.toLowerCase().includes(searchA.toLowerCase()) ||
-    (s.name_en || '').toLowerCase().includes(searchA.toLowerCase())
-  );
-  const filteredB = substances.filter(s =>
-    s.name_pl.toLowerCase().includes(searchB.toLowerCase()) ||
-    (s.name_en || '').toLowerCase().includes(searchB.toLowerCase())
-  );
+  // Optimization: Memoize filtered lists and hoist toLowerCase() outside the loop
+  // to avoid redundant string allocations and high GC pressure on every render.
+  const filteredA = useMemo(() => {
+    const q = searchA.toLowerCase();
+    return substances.filter(s =>
+      s.name_pl.toLowerCase().includes(q) ||
+      (s.name_en || '').toLowerCase().includes(q)
+    );
+  }, [substances, searchA]);
+
+  const filteredB = useMemo(() => {
+    const q = searchB.toLowerCase();
+    return substances.filter(s =>
+      s.name_pl.toLowerCase().includes(q) ||
+      (s.name_en || '').toLowerCase().includes(q)
+    );
+  }, [substances, searchB]);
 
   return (
     <div className="mix-explorer">
