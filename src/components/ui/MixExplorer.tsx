@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
 import { RiskBadge } from './RiskBadge';
 import { NTMixVisualization } from './NTMixVisualization';
@@ -58,14 +58,25 @@ export function MixExplorer() {
   const getName = (s: { name_pl: string; name_en?: string }) =>
     language === 'en' && s.name_en ? s.name_en : s.name_pl;
 
-  const filteredA = substances.filter(s =>
-    s.name_pl.toLowerCase().includes(searchA.toLowerCase()) ||
-    (s.name_en || '').toLowerCase().includes(searchA.toLowerCase())
-  );
-  const filteredB = substances.filter(s =>
-    s.name_pl.toLowerCase().includes(searchB.toLowerCase()) ||
-    (s.name_en || '').toLowerCase().includes(searchB.toLowerCase())
-  );
+  // ⚡ Bolt: Memoize filtered array and hoist string conversion outside the loop to reduce GC pressure
+  const filteredA = useMemo(() => {
+    if (!searchA) return substances;
+    const term = searchA.toLowerCase();
+    return substances.filter(s =>
+      s.name_pl.toLowerCase().includes(term) ||
+      (s.name_en || '').toLowerCase().includes(term)
+    );
+  }, [substances, searchA]);
+
+  // ⚡ Bolt: Memoize filtered array and hoist string conversion outside the loop to reduce GC pressure
+  const filteredB = useMemo(() => {
+    if (!searchB) return substances;
+    const term = searchB.toLowerCase();
+    return substances.filter(s =>
+      s.name_pl.toLowerCase().includes(term) ||
+      (s.name_en || '').toLowerCase().includes(term)
+    );
+  }, [substances, searchB]);
 
   return (
     <div className="mix-explorer">
